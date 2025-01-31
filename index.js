@@ -3,4 +3,4 @@ function sayHello(name, surname) {
     console.log(`${name} ${surname}`)
 }
 
-sayHello('Robot', 'Dreams'); //homework 2
+sayHello('Robot', 'Dreams') //homework 2222
