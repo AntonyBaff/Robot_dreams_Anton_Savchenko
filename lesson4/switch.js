@@ -1,27 +1,27 @@
-const guessOfRangeNumber2 = 63;
+const day = 'Thursday';
 
-switch (true) {
-    case guessOfRangeNumber2 >= 0 && guessOfRangeNumber2 < 10:
-        console.log('Your number between 0 and 10');
+switch (day) {
+    case 'Sunday':
+        console.log('You have a second day off');
         break;
-    case guessOfRangeNumber2 >= 10 && guessOfRangeNumber2 < 20:
-        console.log('Your number between 10 and 20');
+    case 'Monday':
+        console.log('Call your mom at 10:30 AM');
         break;
-    case guessOfRangeNumber2 >= 20 && guessOfRangeNumber2 < 30:
-        console.log('Your number between 20 and 30');
+    case 'Tuesday':
+        console.log('Security meeting at 1:00 PM');
         break;
-    case guessOfRangeNumber2 >= 30 && guessOfRangeNumber2 < 40:
-        console.log('Your number between 30 and 40');
+    case 'Wednesday':
+        console.log('Go to the cinema with Mary at 08:00 PM');
         break;
-    case guessOfRangeNumber2 >= 40 && guessOfRangeNumber2 < 50:
-        console.log('Your number between 40 and 50');
+    case 'Thursday':
+        console.log('Go to the gym at 5:00 PM');
         break;
-    case guessOfRangeNumber2 >= 50 && guessOfRangeNumber2 < 60:
-        console.log('Your number between 50 and 60');
+    case 'Friday':
+        console.log('No plans');
         break;
-    case guessOfRangeNumber2 >= 60 && guessOfRangeNumber2 < 70:
-        console.log('Your number between 60 and 70');
+    case 'Saturday':
+        console.log('Play volleyball with friends at 18:00 PM');
         break;
     default:
-        console.log('Your number more than 70');
+        console.log('Incorrect day of week');
 }
