@@ -23,5 +23,5 @@ switch (day) {
         console.log('Play volleyball with friends at 18:00 PM');
         break;
     default:
-        console.log('Incorrect day of week');
+        console.log('Incorrect day of week'); //111
 }

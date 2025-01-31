@@ -15,5 +15,5 @@ if (day === 'Sunday') {
 } else if (day === 'Saturday') {
     console.log('Play volleyball with friends at 18:00 PM');
 } else {
-    console.log('Incorrect day of week');
+    console.log('Incorrect day of week'); //111
 }
