@@ -2,9 +2,10 @@
 тип (рядок, число, boolean, any), та виконати вивчені операції над ними 
 включно з перебором (forEach() та map()).*/
 
-const arrString = ["one", "two", "three", "four", "five"];
+const arrString = ["two", "one", "five", "three", "four"];
 const arrNumber = [1, 2, 3, 4, 5];
 const arrBool = [true, false, true, false, false];
+const arrStringABC = ['c', 'a', 'b', 'd', 'e', 'f'];
 const arrAny = ["one", 2, true, 4, "five"];
 
 arrString.push("six");
@@ -20,16 +21,16 @@ arrNumber.shift();
 console.log(arrNumber);
 
 const filteredAny = arrAny.filter((el) => typeof el === 'boolean');
-console.log(filteredAny);
+console.log('FILTER', filteredAny);
 
 const onlyTrue = arrBool.filter(Boolean);
-console.log(onlyTrue);
+console.log('FILTER', onlyTrue);
 
 const foundNumber = arrNumber.find(num => num === 3);
-console.log(foundNumber);
+console.log('FIND', foundNumber);
 
-const sortedStringArray = arrString.sort((a, b) => a + b);
-console.log(sortedStringArray);
+const sortedStringArray = arrStringABC.sort();
+console.log('SORT', sortedStringArray);
 
 const arrForEach = [];
 arrAny.forEach((el, i) => {
