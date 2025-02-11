@@ -10,3 +10,5 @@ Lesson 3 - https://github.com/AntonyBaff/Robot_dreams_Anton_Savchenko/tree/homew
 Lesson 4 - https://github.com/AntonyBaff/Robot_dreams_Anton_Savchenko/tree/homework_4/lesson4/src
 
 Lesson 5 - https://github.com/AntonyBaff/Robot_dreams_Anton_Savchenko/tree/main/lesson5
+
+Lesson 6 - https://github.com/AntonyBaff/Robot_dreams_Anton_Savchenko/tree/main/lesson6
