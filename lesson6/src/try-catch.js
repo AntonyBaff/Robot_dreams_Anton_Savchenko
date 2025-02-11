@@ -17,7 +17,7 @@ async function getData() {
         const data = await fetchData(fakeUrl);
         console.log('Data from fakeUrl', data);
     } catch (error) {
-        console.warn('fakeUrl is not working, trying realUrl...');
+        console.warn(error.message);
 
         try {
             const realData = await fetchData(realUrl);

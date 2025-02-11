@@ -5,4 +5,6 @@ async function fetchRequest() {
     console.log('User emails:', emails);
 }
 
-fetchRequest();
+(async () => {
+    await fetchRequest();;
+})();
