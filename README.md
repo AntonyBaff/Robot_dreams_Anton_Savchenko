@@ -1,14 +1,8 @@
 =======
-# This repository will contain my HOMEWORKS in Robot_Dreams
+# Homework 7
 ____
-Lesson 1 - No Homework
-
-Lesson 2 - https://github.com/AntonyBaff/play-with-git/tree/Homework_2
-
-Lesson 3 - https://github.com/AntonyBaff/Robot_dreams_Anton_Savchenko/tree/homework_3
-
-Lesson 4 - https://github.com/AntonyBaff/Robot_dreams_Anton_Savchenko/tree/homework_4/lesson4/src
-
-Lesson 5 - https://github.com/AntonyBaff/Robot_dreams_Anton_Savchenko/tree/main/lesson5
-
-Lesson 6 - https://github.com/AntonyBaff/Robot_dreams_Anton_Savchenko/tree/main/lesson6
+1. Ознайомитися з додатковими ресурсами
+   
+2. Створити проєкт TS
+   
+3. Взяти за основу ДЗ до заняття 5 (Функції), а саме файли звичайних і стрілочних функцій (не беремо файл з getters та setters) та переробити їх так, щоб це був код TS, тобто додати до нього типізацію.
