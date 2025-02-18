@@ -1,0 +1,14 @@
+{
+  "name": "lesson8",
+  "version": "1.0.0",
+  "description": "recommended config from me for programming on a TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^5.7.3"
+  }
+}
