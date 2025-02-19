@@ -1,10 +1,10 @@
 //import { getJson, Output, Links } from './interface';
 
-import { Data, getJson } from "./interface";
+import { Data} from './interface';
 
 export class OutputClass {
     private _id;
-    
+
     public get id(): string {
         return this._id;
     }
@@ -27,12 +27,4 @@ export class OutputClass {
     public shortInfo(): void {
         console.log(this._id, this.type);
     }
-};
-
-(async () => {
-    const output = await getJson();
-    //console.log(output.data[1])
-    const output2 = new OutputClass(output.data[1]);
-    output2.shortInfo();
-    //console.log(output.data[0].id);
-})();
+}

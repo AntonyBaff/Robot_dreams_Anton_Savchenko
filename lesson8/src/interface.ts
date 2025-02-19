@@ -1,13 +1,12 @@
 export interface Output {
-    id: Data;
     data: Data[];
     links: {
         self: string;
         current: string;
         next: string;
         last: string;
-    }
-};
+    };
+}
 
 export interface BreedAttributes {
     name: string;
@@ -41,21 +40,9 @@ export interface Relationships {
 export interface Data {
     id: string;
     type: string;
-    attributes: string;
-    relationships: string;
+    attributes: BreedAttributes;
+    relationships: Relationships;
 }
-
-export async function getJson(): Promise<Output> {
-    const response = await fetch('https://dogapi.dog/api/v2/breeds');
-    const json = await response.json() as Output;
-    return json;
-}
-
-(async () => {
-    const output = await getJson();
-    //onsole.log(output.data[0]);
-})();
-
 // {
 //     "data": [
 //       {
@@ -63,7 +50,12 @@ export async function getJson(): Promise<Output> {
 //         "type": "breed",
 //         "attributes": {
 //           "name": "Caucasian Shepherd Dog",
-//           "description": "The Caucasian Shepherd Dog is a large and powerful breed of dog from the Caucasus Mountains region. These dogs are large in size, with a thick double coat to protect them from the cold. They have a regal bearing, with a proud and confident demeanor. They are highly intelligent and loyal, making them excellent guard dogs. They are courageous and alert, with an instinct to protect their family and property. They are highly trainable, but require firm and consistent training.",
+//           "description": "The Caucasian Shepherd Dog is a large and powerful breed of dog from the
+// Caucasus Mountains region. These dogs are large in size, with a thick double coat to protect
+// them from the cold. They have a regal bearing, with a proud and confident demeanor.
+// They are highly intelligent and loyal, making them excellent guard dogs.
+// They are courageous and alert, with an instinct to protect their family and property.
+// They are highly trainable, but require firm and consistent training.",
 //           "life": {
 //             "max": 20,
 //             "min": 15
@@ -92,7 +84,11 @@ export async function getJson(): Promise<Output> {
 //         "type": "breed",
 //         "attributes": {
 //           "name": "Bouvier des Flandres",
-//           "description": "The Bouvier des Flandres is a large and powerful breed of dog from the Flanders region of Belgium. These dogs are very large in size, with a thick double coat of wire-haired fur. They have a dignified but energetic demeanor, making them excellent working dogs. They are highly intelligent and trainable, with an instinct to protect their family and property. They are brave and loyal, with an independent nature that makes them well suited for herding and guard work.",
+//           "description": "The Bouvier des Flandres is a large and powerful breed of dog from the Flanders
+// region of Belgium. These dogs are very large in size, with a thick double coat of wire-haired fur.
+// They have a dignified but energetic demeanor, making them excellent working dogs.
+// They are highly intelligent and trainable, with an instinct to protect their family and property.
+// They are brave and loyal, with an independent nature that makes them well suited for herding and guard work.",
 //           "life": {
 //             "max": 14,
 //             "min": 10
@@ -121,7 +117,11 @@ export async function getJson(): Promise<Output> {
 //         "type": "breed",
 //         "attributes": {
 //           "name": "Grand Basset Griffon Vendéen",
-//           "description": "The Grand Basset Griffon Vendéen is a medium-sized breed of scent hound from the Vendéen region of France. These dogs are medium in size, with a long and wiry coat of fur. They have an energetic and cheerful demeanor, with an instinct for hunting and tracking. They are highly trainable and intelligent, but require firm and consistent training to be obedient. They are loyal and devoted to their family, but can be stubborn and independent at times.",
+//           "description": "The Grand Basset Griffon Vendéen is a medium-sized breed of scent hound from
+// the Vendéen region of France. These dogs are medium in size, with a long and wiry coat of fur.
+// They have an energetic and cheerful demeanor, with an instinct for hunting and tracking.
+// They are highly trainable and intelligent, but require firm and consistent training to be obedient.
+// They are loyal and devoted to their family, but can be stubborn and independent at times.",
 //           "life": {
 //             "max": 15,
 //             "min": 12
@@ -150,7 +150,11 @@ export async function getJson(): Promise<Output> {
 //         "type": "breed",
 //         "attributes": {
 //           "name": "Hokkaido",
-//           "description": "The Hokkaido is a medium-sized breed of dog from the island of Hokkaido in Japan. These dogs are medium in size, with a thick double coat of fur to protect them from the cold. They have a dignified and loyal demeanor, making them excellent guard and companion dogs. They are intelligent and trainable, but require firm and consistent training to be obedient. They are brave and alert, with an instinct to protect their family and property.",
+//           "description": "The Hokkaido is a medium-sized breed of dog from the island of Hokkaido in Japan.
+// These dogs are medium in size, with a thick double coat of fur to protect them from the cold.
+// They have a dignified and loyal demeanor, making them excellent guard and companion dogs.
+// They are intelligent and trainable, but require firm and consistent training to be obedient.
+// They are brave and alert, with an instinct to protect their family and property.",
 //           "life": {
 //             "max": 15,
 //             "min": 12
@@ -179,7 +183,11 @@ export async function getJson(): Promise<Output> {
 //         "type": "breed",
 //         "attributes": {
 //           "name": "Japanese Terrier",
-//           "description": "The Japanese Terrier is a small breed of terrier from Japan. These dogs are small in size, with a short and wiry coat of fur. They have a lively and energetic demeanor, with an instinct for hunting. They are highly intelligent and trainable, but require firm and consistent training to be obedient. They are loyal and devoted to their family, with an independent nature that makes them well suited for herding and guard work.",
+//           "description": "The Japanese Terrier is a small breed of terrier from Japan.
+// These dogs are small in size, with a short and wiry coat of fur.
+// They have a lively and energetic demeanor, with an instinct for hunting.
+// They are highly intelligent and trainable, but require firm and consistent training to be obedient.
+// They are loyal and devoted to their family, with an independent nature that makes them well suited for herding and guard work.",
 //           "life": {
 //             "max": 20,
 //             "min": 15
@@ -208,7 +216,11 @@ export async function getJson(): Promise<Output> {
 //         "type": "breed",
 //         "attributes": {
 //           "name": "Hanoverian Scenthound",
-//           "description": "The Hanoverian Scenthound is a medium-sized breed of scent hound from the Hanover region of Germany. These dogs are medium in size, with a short and wiry coat of fur. They have a friendly and energetic demeanor, with an instinct for hunting and tracking. They are highly intelligent and trainable, but require firm and consistent training to be obedient. They are loyal and devoted to their family, but can be stubborn and independent at times.",
+//           "description": "The Hanoverian Scenthound is a medium-sized breed of scent hound from
+// the Hanover region of Germany. These dogs are medium in size, with a short and wiry coat of fur.
+// They have a friendly and energetic demeanor, with an instinct for hunting and tracking.
+// They are highly intelligent and trainable, but require firm and consistent training to be obedient.
+// They are loyal and devoted to their family, but can be stubborn and independent at times.",
 //           "life": {
 //             "max": 14,
 //             "min": 12
@@ -237,7 +249,11 @@ export async function getJson(): Promise<Output> {
 //         "type": "breed",
 //         "attributes": {
 //           "name": "Tibetan Spaniel",
-//           "description": "The Tibetan Spaniel is a small breed of spaniel from Tibet. These dogs are small in size, with a short and silky coat of fur. They have a cheerful and affectionate demeanor, making them excellent companion dogs. They are highly trainable and intelligent, with an instinct to protect their family and property. They are loyal and devoted to their family, but can be stubborn and independent at times.",
+//           "description": "The Tibetan Spaniel is a small breed of spaniel from Tibet.
+// These dogs are small in size, with a short and silky coat of fur.
+// They have a cheerful and affectionate demeanor, making them excellent companion dogs.
+// They are highly trainable and intelligent, with an instinct to protect their family and property.
+// They are loyal and devoted to their family, but can be stubborn and independent at times.",
 //           "life": {
 //             "max": 16,
 //             "min": 14
@@ -266,7 +282,12 @@ export async function getJson(): Promise<Output> {
 //         "type": "breed",
 //         "attributes": {
 //           "name": "Border Collie",
-//           "description": "The Border Collie is a medium-sized breed of herding dog from the borders of England and Scotland. These dogs are medium in size, with a thick double coat of fur to protect them from the cold. They have an energetic and intelligent demeanor, with an instinct for herding and working. They are highly trainable and obedient, but require firm and consistent training to be obedient. They are loyal and devoted to their family, with an independent nature that makes them well suited for herding and guard work.",
+//           "description": "The Border Collie is a medium-sized breed of herding dog from the borders of
+//  England and Scotland.
+//  These dogs are medium in size, with a thick double coat of fur to protect them from the cold.
+//  They have an energetic and intelligent demeanor, with an instinct for herding and working.
+//  They are highly trainable and obedient, but require firm and consistent training to be obedient.
+//  They are loyal and devoted to their family, with an independent nature that makes them well suited for herding and guard work.",
 //           "life": {
 //             "max": 16,
 //             "min": 12
@@ -295,7 +316,11 @@ export async function getJson(): Promise<Output> {
 //         "type": "breed",
 //         "attributes": {
 //           "name": "Curly-Coated Retriever",
-//           "description": "The Curly-Coated Retriever is a large breed of retrieving dog from England. These dogs are large in size, with a curly coat of fur. They have a dignified and energetic demeanor, making them excellent working dogs. They are highly intelligent and trainable, with an instinct to retrieve game. They are loyal and devoted to their family, with an independent nature that makes them well suited for retrieving and guard work.",
+//           "description": "The Curly-Coated Retriever is a large breed of retrieving dog from England.
+//  These dogs are large in size, with a curly coat of fur. They have a dignified and energetic demeanor,
+//  making them excellent working dogs. They are highly intelligent and trainable, with an instinct to
+//  retrieve game. They are loyal and devoted to their family, with an independent nature that makes
+//  them well suited for retrieving and guard work.",
 //           "life": {
 //             "max": 14,
 //             "min": 12
@@ -324,7 +349,11 @@ export async function getJson(): Promise<Output> {
 //         "type": "breed",
 //         "attributes": {
 //           "name": "Skye Terrier",
-//           "description": "The Skye Terrier is a small breed of terrier from the Isle of Skye in Scotland. These dogs are small in size, with a long and wiry coat of fur. They have a dignified and independent demeanor, with an instinct for hunting. They are highly intelligent and trainable, but require firm and consistent training to be obedient. They are loyal and devoted to their family, but can be stubborn and independent at times.",
+//           "description": "The Skye Terrier is a small breed of terrier from the Isle of Skye in Scotland.
+// These dogs are small in size, with a long and wiry coat of fur.
+// They have a dignified and independent demeanor, with an instinct for hunting.
+// They are highly intelligent and trainable, but require firm and consistent training to be obedient.
+// They are loyal and devoted to their family, but can be stubborn and independent at times.",
 //           "life": {
 //             "max": 15,
 //             "min": 12
@@ -356,5 +385,3 @@ export async function getJson(): Promise<Output> {
 //       "last": "https://dogapi.dog/api/v2/breeds?page[number]=29"
 //     }
 //   }
-
-

@@ -1,19 +1,24 @@
 abstract class Vehicle {
+    public constructor(
+        public brand: string,
+        public model: string,
+        public year: number
+    ) {}
 
-    constructor(public brand: string, public model: string, public year: number) {}
+    public abstract start(): void;
 
-    abstract start(): void;
-
-    getDetails(): string {
+    public getDetails(): string {
         return `${this.year} ${this.brand} ${this.model}`;
     }
 }
 
 class Engine {
+    public constructor(
+        public type: string,
+        public horsepower: number
+    ) {}
 
-    constructor(public type: string, public horsepower: number) {}
-
-    getEngineInfo(): string {
+    public getEngineInfo(): string {
         return `Engine: ${this.type}, ${this.horsepower} HP`;
     }
 }
@@ -21,26 +26,26 @@ class Engine {
 class Car extends Vehicle {
     private engine: Engine;
 
-    constructor(brand: string, model: string, year: number, engine: Engine) {
+    public constructor(brand: string, model: string, year: number, engine: Engine) {
         super(brand, model, year);
         this.engine = engine;
     }
 
-    start(): void {
+    public start(): void {
         console.log(`Car ${this.getDetails()} is starting...`);
     }
 
-    getCarInfo(): string {
+    public getCarInfo(): string {
         return `${this.getDetails()} | ${this.engine.getEngineInfo()}`;
     }
 }
 
 class Bike extends Vehicle {
-    constructor(brand: string, model: string, year: number) {
+    public constructor(brand: string, model: string, year: number) {
         super(brand, model, year);
     }
 
-    start(): void {
+    public start(): void {
         console.log(`Bike ${this.getDetails()} is starting...`);
     }
 }
