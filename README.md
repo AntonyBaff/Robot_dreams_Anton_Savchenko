@@ -1,14 +1,16 @@
 =======
-# This repository will contain my HOMEWORKS in Robot_Dreams
+# Homework 8
 ____
-Lesson 1 - No Homework
+1. Створити проєкт TS.
 
-Lesson 2 - https://github.com/AntonyBaff/play-with-git/tree/Homework_2
+2. Знайти в інтернеті будь-який запит, який би вертав JSON-респонз із декількома рівнями (Наприклад з ДЗ лекції 6).
 
-Lesson 3 - https://github.com/AntonyBaff/Robot_dreams_Anton_Savchenko/tree/homework_3
+3. Описати повернутий JSON інтерфейсом або класом.
 
-Lesson 4 - https://github.com/AntonyBaff/Robot_dreams_Anton_Savchenko/tree/homework_4/lesson4/src
+4. Написати функцію, яка надсилатиме запит на вебресурс (п.2) і повертатиме типізований об’єкт (п.3).
 
-Lesson 5 - https://github.com/AntonyBaff/Robot_dreams_Anton_Savchenko/tree/main/lesson5
+5. Написати іншу функцію, яка братиме отриманий об’єкт (п.4) і переводитиме його в інший (наприклад, міститиме коротку інформацію про об’єкт, суму якихось полів та ін. і сама логіка переводу має відбуватися в конструкторі нового класу, const obj2 = new Obj2(obj1)).
 
-Lesson 6 - https://github.com/AntonyBaff/Robot_dreams_Anton_Savchenko/tree/main/lesson6
+6. Сформувати файл abstraction.ts, у якому придумати композицію для наслідування та реалізувати абстракцію й наслідування.
+
+7. Підготувати файл index.ts, у якому створити екземпляри класів і спробувати маніпулювати з об’єктами через їхні методи.
