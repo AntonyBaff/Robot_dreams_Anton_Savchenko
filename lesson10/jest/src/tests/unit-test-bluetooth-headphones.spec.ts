@@ -12,6 +12,7 @@ describe('Unit test suite for class BluetoothHeadphones', () => {
         //Assert
         expect(obj.volumeControl).to.be.equal(76);
     });
+
     it('2 Check turnOn method status', () => {
         // Arrange
         const obj = new BluetoothHeadphones();
@@ -22,6 +23,7 @@ describe('Unit test suite for class BluetoothHeadphones', () => {
         //Assert
         expect(obj.status).to.be.equal(true);
     });
+
     it('3. Check turnOff method status', () => {
         // Arrange
         const obj = new BluetoothHeadphones();
@@ -32,6 +34,7 @@ describe('Unit test suite for class BluetoothHeadphones', () => {
         //Assert
         expect(obj.status).to.be.equal(false);
     });
+
     it('4. Check turnOff method LED indicator', () => {
         // Arrange
         const obj = new BluetoothHeadphones();
@@ -42,6 +45,7 @@ describe('Unit test suite for class BluetoothHeadphones', () => {
         //Assert
         expect(obj.currentIndicator).to.be.equal('Red');
     });
+
     it('5. Check turnOn method LED indicator', () => {
         // Arrange
         const obj = new BluetoothHeadphones();

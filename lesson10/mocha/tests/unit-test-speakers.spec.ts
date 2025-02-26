@@ -13,6 +13,7 @@ describe('Unit test suite for class Speakers', () => {
         expect(obj.volumeControl).to.be.equal(50);
 
     });
+
     it('2 Check turnOn method', () => {
         // Arrange
         const obj = new Speakers();
@@ -24,6 +25,7 @@ describe('Unit test suite for class Speakers', () => {
         expect(obj.status).to.be.equal(true);
 
     });
+
     it('3. Check turnOff method', () => {
         // Arrange
         const obj = new Speakers();
@@ -35,6 +37,7 @@ describe('Unit test suite for class Speakers', () => {
         expect(obj.status).to.be.equal(false);
 
     });
+
     it('4. Check turnOff method LED indicator', () => {
         // Arrange
         const obj = new Speakers();
@@ -46,6 +49,7 @@ describe('Unit test suite for class Speakers', () => {
         expect(obj.currentIndicator).to.be.equal('Red');
 
     });
+
     it('5. Check turnOn method LED indicator', () => {
         // Arrange
         const obj = new Speakers();
