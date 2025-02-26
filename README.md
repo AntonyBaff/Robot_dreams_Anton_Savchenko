@@ -1,12 +1,22 @@
 =======
-# Homework 9
+# Homeworks
 ____
-1. Створити проєкт TS.
+1. Lesson 1 - No homework
 
-2. Придумати якусь послідовність абстракцій для імплементації, як-от водонагрівач-бойлер, тварина-собака-кіт, фігура-чотириктник-квадрат тощо (нова послідовність). 
+2. Lesson 2 - No homework
 
-3. Спроєктувати послідовність абстракцій і класів згідно з принципами ООП (4 основні принципи і як їх деталізація - SOLID). 
+3. Lesson 3 - https://github.com/AntonyBaff/Robot_dreams_Anton_Savchenko/tree/main/lesson3
 
-4. Створити функцію, яка приймала б інтерфейс як вхідний параметр і могла б працювати з різними екземплярами, які наслідують цей інтерфейс.
+4. Lesson 4 - https://github.com/AntonyBaff/Robot_dreams_Anton_Savchenko/tree/main/lesson4
 
-5. Викликати функцію з різними екземплярами класів.
+5. Lesson 5 - https://github.com/AntonyBaff/Robot_dreams_Anton_Savchenko/tree/main/lesson5
+
+6. Lesson 6 - https://github.com/AntonyBaff/Robot_dreams_Anton_Savchenko/tree/main/lesson6
+
+7. Lesson 7 - https://github.com/AntonyBaff/Robot_dreams_Anton_Savchenko/tree/main/lesson7
+
+8. Lesson 8 - https://github.com/AntonyBaff/Robot_dreams_Anton_Savchenko/tree/main/lesson8
+
+9. Lesson 9 - https://github.com/AntonyBaff/Robot_dreams_Anton_Savchenko/tree/main/lesson9
+
+10. Lesson 10 - https://github.com/AntonyBaff/Robot_dreams_Anton_Savchenko/tree/main/lesson10
