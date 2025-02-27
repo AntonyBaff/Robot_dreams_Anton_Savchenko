@@ -41,8 +41,10 @@ export class BluetoothHeadphones implements IAudioEquipment {
     }
 
     public changeVolume(volume: number): void {
-        if (volume < 0 || volume > 100) {
-            console.log('Volume cannot be lower than 0 and higher than 100');
+        if (volume <= 0) {
+            throw new Error('Volume should be greater than 0');
+        } else if (volume > 100) {
+            throw new Error('Volume should be less than or equal to 100');
         } else {
             this.volumeControl = volume;
             console.log('Volume changed to ' + this.volumeControl + '%');
