@@ -10,6 +10,7 @@ describe('BluetoothHeadphones stubbing test', () => {
 
         it('1. (Stub) turnOn should turn on headphones', () => {
             // Arrange
+            // because is stub we should defined our function behavior
             instance.turnOn.returns((() => {
                 instance.status = true;
                 instance.indicatorLed = 'Green';
