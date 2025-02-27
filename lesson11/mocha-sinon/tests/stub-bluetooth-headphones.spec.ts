@@ -9,17 +9,34 @@ describe('BluetoothHeadphones stubbing test', () => {
         const instance = sinon.stub(myHeadphones);
 
         it('1. (Stub) turnOn should turn on headphones', () => {
+            // Arrange
+            instance.turnOn.returns((() => {
+                instance.status = true;
+                instance.indicatorLed = 'Green';
+            })());
+
+            // Act
             instance.turnOn();
-            expect(instance.currentStatus).to.be.equal(true);
+
+            // Assert
+            expect(myHeadphones.currentStatus).to.be.equal(true);
         });
     });
 
     describe('(createStubInstance) BluetoothHeadphones with object instance', () => {
-
         const instance = sinon.createStubInstance(BluetoothHeadphones);
 
         it('1. (createStubInstance) turnOn should turn on headphones', () => {
-            instance.turnOn.returns();
+            // Arrange
+            instance.turnOn.returns((() => {
+                instance.status = true;
+                instance.indicatorLed = 'Green';
+            })());
+
+            // Act
+            instance.turnOn();
+
+            // Assert
             expect(instance.currentStatus).to.be.equal(true);
         });
     });
