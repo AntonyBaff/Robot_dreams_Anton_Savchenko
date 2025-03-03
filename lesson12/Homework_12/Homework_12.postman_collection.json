@@ -1,0 +1,399 @@
+{
+	"info": {
+		"_postman_id": "303e3659-145b-4baa-9da1-e8ea7e3c02a7",
+		"name": "Homework_12",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "18547978"
+	},
+	"item": [
+		{
+			"name": "Grab jokes by type",
+			"item": [
+				{
+					"name": "/jokes/programming/random (Grab jokes by type)",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Check that responce has only programming type of jokes\", function () {",
+									"    var jsonData = pm.response.json();",
+									"    pm.expect(jsonData[0].type).to.equal('programming');",
+									"});",
+									"",
+									"pm.test(\"Check that responce has only knock-knock type of jokes\", function () {",
+									"    var jsonData = pm.response.json();",
+									"    pm.expect(jsonData[0].type).to.equal('knock-knock');",
+									"});",
+									"",
+									"pm.test(\"Check that responce has only general type of jokes\", function () {",
+									"    var jsonData = pm.response.json();",
+									"    pm.expect(jsonData[0].type).to.equal('general');",
+									"});",
+									"",
+									"pm.test(\"Check that responce has only dad type of jokes\", function () {",
+									"    var jsonData = pm.response.json();",
+									"    pm.expect(jsonData[0].type).to.equal('dad');",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{jokesApiBaseUrl}}/jokes/programming/random",
+							"host": [
+								"{{jokesApiBaseUrl}}"
+							],
+							"path": [
+								"jokes",
+								"programming",
+								"random"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/jokes/knock-knock/random (Grab jokes by type)",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Check that responce has only knock-knock type of jokes\", function () {",
+									"    var jsonData = pm.response.json();",
+									"    pm.expect(jsonData[0].type).to.equal('knock-knock');",
+									"});",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{jokesApiBaseUrl}}/jokes/knock-knock/random",
+							"host": [
+								"{{jokesApiBaseUrl}}"
+							],
+							"path": [
+								"jokes",
+								"knock-knock",
+								"random"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/jokes/general/random (Grab jokes by type)",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Check that responce has only general type of jokes\", function () {",
+									"    var jsonData = pm.response.json();",
+									"    pm.expect(jsonData[0].type).to.equal('general');",
+									"});",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{jokesApiBaseUrl}}/jokes/general/random",
+							"host": [
+								"{{jokesApiBaseUrl}}"
+							],
+							"path": [
+								"jokes",
+								"general",
+								"random"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/jokes/dad/random (Grab jokes by type)",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Check that responce has only dad type of jokes\", function () {",
+									"    var jsonData = pm.response.json();",
+									"    pm.expect(jsonData[0].type).to.equal('dad');",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{jokesApiBaseUrl}}/jokes/dad/random",
+							"host": [
+								"{{jokesApiBaseUrl}}"
+							],
+							"path": [
+								"jokes",
+								"dad",
+								"random"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Grab joke by id",
+			"item": [
+				{
+					"name": "Check that responce has joke with id 45",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Check that responce has joke with id 45\", function () {",
+									"    var jsonData = pm.response.json();",
+									"    pm.expect(jsonData.id).to.be.equal(45);",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{jokesApiBaseUrl}}/jokes/0",
+							"host": [
+								"{{jokesApiBaseUrl}}"
+							],
+							"path": [
+								"jokes",
+								"0"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Check that if enter joke_id=0, type \"error\" and message \"joke not found\" will be in responce",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test('Check that if enter joke_id=0, type \"error\" and message \"joke not found\" will be in responce', function () {",
+									"    var jsonData = pm.response.json();",
+									"    pm.expect(jsonData.type).to.be.equal('error');",
+									"    pm.expect(jsonData.message).to.be.equal('joke not found');",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{jokesApiBaseUrl}}/jokes/0",
+							"host": [
+								"{{jokesApiBaseUrl}}"
+							],
+							"path": [
+								"jokes",
+								"0"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "/random_joke (Grab a random joke)",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Your test name\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData).to.be.not.empty;",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{jokesApiBaseUrl}}/random_joke",
+					"host": [
+						"{{jokesApiBaseUrl}}"
+					],
+					"path": [
+						"random_joke"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/types (Get joke types)",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Check that responce has 4 types\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData).to.include('general', 'knock-knock', 'programming', 'dad');",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{jokesApiBaseUrl}}/types",
+					"host": [
+						"{{jokesApiBaseUrl}}"
+					],
+					"path": [
+						"types"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/random_ten (Grab ten random jokes)",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Check that responce has 10 objects\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData).to.have.length(10);",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{jokesApiBaseUrl}}/random_ten",
+					"host": [
+						"{{jokesApiBaseUrl}}"
+					],
+					"path": [
+						"random_ten"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/jokes/random/<any-number> (Grab any number of random jokes)",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Check that responce has custom value of jokes\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData).to.have.length(3);",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{jokesApiBaseUrl}}/jokes/random/3",
+					"host": [
+						"{{jokesApiBaseUrl}}"
+					],
+					"path": [
+						"jokes",
+						"random",
+						"3"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "jokesApiBaseUrl",
+			"value": "localhost:3005",
+			"type": "string"
+		}
+	]
+}
