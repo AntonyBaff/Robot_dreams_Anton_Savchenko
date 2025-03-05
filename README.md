@@ -22,3 +22,5 @@ ____
 10. Lesson 10 - https://github.com/AntonyBaff/Robot_dreams_Anton_Savchenko/tree/main/lesson10
 
 11. Lesson 11 - https://github.com/AntonyBaff/Robot_dreams_Anton_Savchenko/tree/main/lesson11
+
+12. Lesson 12 - https://github.com/AntonyBaff/Robot_dreams_Anton_Savchenko/tree/main/lesson12/Homework_12
