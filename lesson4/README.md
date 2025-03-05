@@ -1,10 +1,10 @@
 =======
-# This repository will contain my HOMEWORKS in Robot_Dreams
+# Homework 4
 ____
-Lesson 1 - No Homework
-
-Lesson 2 - https://github.com/AntonyBaff/play-with-git/tree/Homework_2
-
-Lesson 3 - https://github.com/AntonyBaff/Robot_dreams_Anton_Savchenko/tree/homework_3
-
-Lesson 4 - https://github.com/AntonyBaff/Robot_dreams_Anton_Savchenko/tree/homework_4/lesson4/src
+1. Створити проєкт JS.
+   
+2. Сформувати файл loop.js, у якому створити по одному циклу проходу від 0 до 9, на кожній ітерації якого виводитиметься значення поточного ітератора. Потім по одному циклу від 100 до 0 з кроком 10, де виводитиметься ітератор на кожній ітерації.
+   
+3. Підготувати файл arrays.js, у якому додати 4 масиви, по 1 на кожен базовий тип (рядок, число, boolean, any), та виконати вивчені операції над ними включно з перебором (forEach() та map()).
+   
+4. Створити файл objects.js, у якому зробити комплексний об’єкт, що мав би мінімум 2 рівні ієрархії, масив та метод, який виводитиме значення.
