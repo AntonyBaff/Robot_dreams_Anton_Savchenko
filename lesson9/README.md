@@ -1,24 +1,12 @@
-# ts-eslint-config
-recommended config from me for programming on a TypeScript
+=======
+# Homework 9
+____
+1. Створити проєкт TS.
 
-In order to use this config you have to install the following NPM packages
-```
-npm i -D typescript ts-node eslint typescript-eslint @eslint/js @typescript-eslint/eslint-plugin @typescript-eslint/parser @stylistic/eslint-plugin @stylistic/eslint-plugin-ts eslint-plugin-prettier eslint-plugin-unicorn prettier globals
-```
+2. Придумати якусь послідовність абстракцій для імплементації, як-от водонагрівач-бойлер, тварина-собака-кіт, фігура-чотириктник-квадрат тощо (нова послідовність).
 
-Then put eslint.config.mjs into your base directory
+3. Спроєктувати послідовність абстракцій і класів згідно з принципами ООП (4 основні принципи і як їх деталізація - SOLID).
 
-you can add a script to your package.json
-```
-"scripts": {
-  "lint": "eslint .",
-  "build": "npm run lint && tsc --build",
-}
-```
+4. Створити функцію, яка приймала б інтерфейс як вхідний параметр і могла б працювати з різними екземплярами, які наслідують цей інтерфейс.
 
-**Alternatively**, just copy the content of this folder into your project folder and run
-```
-npm i
-```
-
-and start coding
+5. Викликати функцію з різними екземплярами класів.
