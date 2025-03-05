@@ -1,10 +1,10 @@
 =======
-# This repository will contain my HOMEWORKS in Robot_Dreams
+# Homework 5
 ____
-Lesson 1 - No Homework
-
-Lesson 2 - https://github.com/AntonyBaff/play-with-git/tree/Homework_2
-
-Lesson 3 - https://github.com/AntonyBaff/Robot_dreams_Anton_Savchenko/tree/homework_3
-
-Lesson 4 - https://github.com/AntonyBaff/Robot_dreams_Anton_Savchenko/tree/homework_4/lesson4/src
+1. Створити проєкт JS.
+   
+2. Сформувати файл functions.js, у якому створити функцію, яка приймає масив і робить операцію арифметичного додавання елементів і повертає результат операції. Після цього створити 2 масиви (один масив рядків, інший масив чисел) і передати їх як аргумент функції. Результат роботи функції вивести в консоль.
+   
+3. Підготувати файл arrow-functions.js, у якому зробити все те саме, що і з functions.js, тільки цього разу стрілковою функцією.
+   
+4. Створити файл getter-setters.js, куди додати довільний щонайменше 2-рівневий об’єкт, у якому будуть як гетери, так і сетери. Також можна впровадити функцію об’єкта, що здійснюватиме якусь маніпуляцію з полями об’єкта й повертатиме результат обробки.
