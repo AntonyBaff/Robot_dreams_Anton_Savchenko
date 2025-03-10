@@ -1,0 +1,126 @@
+{
+  "consumer": {
+    "name": "PetStoreConsumer-v3"
+  },
+  "interactions": [
+    {
+      "description": "a request for pet by ID",
+      "providerStates": [
+        {
+          "name": "Pet with ID 9223372036854742000 exists"
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "path": "/v2/pet/9223372036854771000"
+      },
+      "response": {
+        "body": [
+          {
+            "category": {
+              "id": 0,
+              "name": "string"
+            },
+            "id": 9223372036854742000,
+            "name": "doggie",
+            "photoUrls": [
+              "string"
+            ],
+            "status": "string",
+            "tags": [
+              {
+                "id": 0,
+                "name": "string"
+              }
+            ]
+          }
+        ],
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "matchingRules": {
+          "body": {
+            "$": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            }
+          },
+          "header": {},
+          "status": {}
+        },
+        "status": 200
+      }
+    },
+    {
+      "description": "a request for pet by ID",
+      "providerStates": [
+        {
+          "name": "Pet with ID 9223372036854771000 exists"
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "path": "/v2/pet/9223372036854771000"
+      },
+      "response": {
+        "body": [
+          {
+            "category": {
+              "id": 0,
+              "name": "string"
+            },
+            "id": 9223372036854771000,
+            "name": "doggie",
+            "photoUrls": [
+              "string"
+            ],
+            "status": "string",
+            "tags": [
+              {
+                "id": 0,
+                "name": "string"
+              }
+            ]
+          }
+        ],
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "matchingRules": {
+          "body": {
+            "$": {
+              "combine": "AND",
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ]
+            }
+          },
+          "header": {},
+          "status": {}
+        },
+        "status": 200
+      }
+    }
+  ],
+  "metadata": {
+    "pact-js": {
+      "version": "14.0.0"
+    },
+    "pactRust": {
+      "ffi": "0.4.22",
+      "models": "1.2.3"
+    },
+    "pactSpecification": {
+      "version": "3.0.0"
+    }
+  },
+  "provider": {
+    "name": "PetStoreProvider-v3"
+  }
+}
