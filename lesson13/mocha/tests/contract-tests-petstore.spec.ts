@@ -53,17 +53,17 @@ describe('PetStore API Contract Test', () => {
 
                 expect(response.status).to.equal(200);
 
-                // expect(response.data[0]).to.contain.keys('id', 'name', 'photoUrls', 'category', 'tags');
-                // expect(response.data[0].id).to.be.a('number');
-                // expect(response.data[0].name).to.be.a('string');
-                // expect(response.data[0].status).to.be.a('string');
-                // expect(response.data[0].category).to.be.an('object');
-                // expect(response.data[0].category.id).to.be.a('number');
-                // expect(response.data[0].category.name).to.be.a('string');
-                // expect(response.data[0].tags).to.be.an('array');
-                // expect(response.data[0].tags[0]).to.include.all.keys('id', 'name');
-                // expect(response.data[0].tags[0].id).to.be.a('number');
-                // expect(response.data[0].tags[0].name).to.be.a('string');
+                expect(response.data).to.contain.keys('id', 'name', 'photoUrls', 'category', 'tags');
+                expect(response.data.id).to.be.a('number');
+                expect(response.data.name).to.be.a('string');
+                expect(response.data.status).to.be.a('string');
+                expect(response.data.category).to.be.an('object');
+                expect(response.data.category.id).to.be.a('number');
+                expect(response.data.category.name).to.be.a('string');
+                expect(response.data.tags).to.be.an('array');
+                expect(response.data.tags[0]).to.include.all.keys('id', 'name');
+                expect(response.data.tags[0].id).to.be.a('number');
+                expect(response.data.tags[0].name).to.be.a('string');
             });
         });
     });
