@@ -52,58 +52,6 @@
         },
         "status": 200
       }
-    },
-    {
-      "description": "a request for pet by ID",
-      "providerStates": [
-        {
-          "name": "Pet with ID 9223372036854741000 exists"
-        }
-      ],
-      "request": {
-        "method": "GET",
-        "path": "/v2/pet/9223372036854741000"
-      },
-      "response": {
-        "body": [
-          {
-            "category": {
-              "id": 0,
-              "name": "string"
-            },
-            "id": 9223372036854741000,
-            "name": "doggie",
-            "photoUrls": [
-              "string"
-            ],
-            "status": "string",
-            "tags": [
-              {
-                "id": 0,
-                "name": "string"
-              }
-            ]
-          }
-        ],
-        "headers": {
-          "Content-Type": "application/json"
-        },
-        "matchingRules": {
-          "body": {
-            "$": {
-              "combine": "AND",
-              "matchers": [
-                {
-                  "match": "type"
-                }
-              ]
-            }
-          },
-          "header": {},
-          "status": {}
-        },
-        "status": 200
-      }
     }
   ],
   "metadata": {
