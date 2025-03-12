@@ -7,34 +7,32 @@
       "description": "a request for pet by ID",
       "providerStates": [
         {
-          "name": "Pet with ID 9223372036854742000 exists"
+          "name": "Pet with ID 9223372036854741000 exists"
         }
       ],
       "request": {
         "method": "GET",
-        "path": "/v2/pet/9223372036854771000"
+        "path": "/v2/pet/9223372036854741000"
       },
       "response": {
-        "body": [
-          {
-            "category": {
+        "body": {
+          "category": {
+            "id": 0,
+            "name": "string"
+          },
+          "id": 9223372036854741000,
+          "name": "doggie",
+          "photoUrls": [
+            "string"
+          ],
+          "status": "available",
+          "tags": [
+            {
               "id": 0,
               "name": "string"
-            },
-            "id": 9223372036854742000,
-            "name": "doggie",
-            "photoUrls": [
-              "string"
-            ],
-            "status": "string",
-            "tags": [
-              {
-                "id": 0,
-                "name": "string"
-              }
-            ]
-          }
-        ],
+            }
+          ]
+        },
         "headers": {
           "Content-Type": "application/json"
         },
@@ -59,12 +57,12 @@
       "description": "a request for pet by ID",
       "providerStates": [
         {
-          "name": "Pet with ID 9223372036854771000 exists"
+          "name": "Pet with ID 9223372036854741000 exists"
         }
       ],
       "request": {
         "method": "GET",
-        "path": "/v2/pet/9223372036854771000"
+        "path": "/v2/pet/9223372036854741000"
       },
       "response": {
         "body": [
@@ -73,7 +71,7 @@
               "id": 0,
               "name": "string"
             },
-            "id": 9223372036854771000,
+            "id": 9223372036854741000,
             "name": "doggie",
             "photoUrls": [
               "string"
