@@ -3,11 +3,16 @@
 ========= Test Case #1 ===========
 
 1. Переходимо на https://rozetka.com.ua/ua/
-2. Натискаємо "Смартфони ТВ та електроніка" rz-main-page-sidebar ul[class="sidebar-theme"] li:nth-child(2)
-3. Натискаємо на категорію "мобільні телефони" div[class="tile-cats"] a[title="Мобільні телефони"]
+2. Натискаємо "Смартфони ТВ та електроніка" ul[class="sidebar-theme"] li:nth-child(2)>a
+   Очікуємо секції section[class="portal-section"]
+3. Натискаємо на категорію "Мобільні телефони" a[title="Мобільні телефони"].tile-cats__picture
+   Очікуємо на секцію section[class="content_type_catalog"]
 4. Натискаємо на перший телефон зі списку //rz-category-goods/*[1] //div[@class="goods-tile__picture"]
+   Очікуємо на картинку img[alt="Оплата частинами до 20 платежів!"]
 5. Натискаємо на кнопку "купити" //rz-buy-button[@class="mode-slim toOrder"]
-6. На поп-ап вікні натискаємо кнопку "Продовжити покупки" //button[@data-testid="continue-shopping-link"]
+   Очікуємо на кнопку rz-modal-layout[class="modal-layout"]
+6. На поп-ап вікні натискаємо кнопку "Продовжити покупки" //button[@data-testid="contignue-shopping-link"]
+   Очікуємо що селектора не буде rz-modal-layout[class="modal-layout"]
 7. Натискаємо на корзину //button[@class="header-cart__button"]
 8. Перевіряємо що в елементі //div[@class="cart cart-se"] є елемент //ul[@class="cart-list"](В пустій корзині цього елемента нема).
 
@@ -15,8 +20,8 @@
 
 1. Переходимо на https://rozetka.com.ua/ua/
 2. Вводимо в полі input[type="text"] "Клавіатура"
-3. Натискаємо кнопку "Знайти" button[class="button button_color_green button_size_medium search-form__submit"]
-4. Перевіряємо що елемент h2[class="search-heading"] span присутній з текстом "Клавіатура"
+3. Натискаємо кнопку "Знайти" .search-form>button
+4. Перевіряємо що елемент h2[class="search-heading"]span присутній з текстом "Клавіатура"
 
 ======== Test Case #3 ============
 
