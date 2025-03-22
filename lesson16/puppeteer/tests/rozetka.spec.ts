@@ -27,22 +27,25 @@ describe('Homework 15 Puppeteer', () => {
 
     it('Test Case #1', async () => {
         await page.click('ul.sidebar-theme li:nth-child(2) a');
-        await page.waitForNavigation();
+        await page.waitForSelector('a[title="Мобільні телефони"].tile-cats__picture');
         await page.click('a[title="Мобільні телефони"].tile-cats__picture');
-        await page.waitForNavigation();
+        await page.waitForSelector('section[class="flex-grow-1"]>rz-category-goods>:first-child');
         await page.click('section[class="flex-grow-1"]>rz-category-goods>:first-child');
-        await page.waitForNavigation();
+        await page.waitForSelector('rz-buy-button.mode-slim.toOrder button');
         await page.click('rz-buy-button.mode-slim.toOrder button');
         await page.waitForSelector('rz-modal-layout[class="modal-layout"] div[class="cart-footer"]>button');
+        expect('rz-modal-layout[class="modal-layout"] div[class="cart-footer"]>button').to.exist;
         await page.click('rz-modal-layout[class="modal-layout"] div[class="cart-footer"]>button');
         await page.click('button.header-cart__button');
         await page.waitForSelector('div.cart.cart-se ul.cart-list');
+        expect('div.cart.cart-se ul.cart-list').to.exist;
     });
 
     it('Test Case #2', async () => {
         await page.type('input[type="text"]', 'Клавіатура');
         await page.click('.search-form>button');
         await page.waitForSelector('h2.search-heading span');
+        expect('h2.search-heading span').to.exist;
     });
 
     it('Test Case #3', async () => {
@@ -54,12 +57,7 @@ describe('Homework 15 Puppeteer', () => {
     it('Test Case #4', async () => {
         await page.waitForSelector('button[data-testid="menu_button"]');
         await page.waitForSelector('a.header__logo');
-        await page.waitForSelector('button[data-testid="fat_menu_btn"]');
-        await page.waitForSelector('ul.header-actions li:nth-child(1)');
-        await page.waitForSelector('ul.header-actions li:nth-child(3)');
-        await page.waitForSelector('ul.header-actions li:nth-child(6)');
-        await page.waitForSelector('ul.header-actions li:nth-child(7)');
-        await page.waitForSelector('ul.header-actions li:nth-child(8)');
-        await page.waitForSelector('ul.header-actions li:nth-child(9)');
+        const elements2 = await page.$$('ul[class="header-actions"] li');
+        expect(elements2.length).to.be.equal(9);
     });
 });
