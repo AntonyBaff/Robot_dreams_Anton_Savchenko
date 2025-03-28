@@ -3,7 +3,6 @@ import { ChainablePromiseElement } from 'webdriverio';
 
 export class Header {
     public get cartIcon(): ChainablePromiseElement {
-        //return $('//button[@class="header-cart__button"]');
         return $('//ul[@class="header-actions"]/li[9]');
     }
 
@@ -37,5 +36,17 @@ export class Header {
 
     public get wishListButton(): ChainablePromiseElement {
         return $('//ul[@class="header-actions"]/li[8]');
+    }
+
+    public get searchInput(): ChainablePromiseElement {
+        return $('input[type="text"]');
+    }
+
+    public get searchButton(): ChainablePromiseElement {
+        return $('.search-form>button');
+    }
+
+    public get searchHeader(): ChainablePromiseElement {
+        return $('h2[class="search-heading"] span');
     }
 }
