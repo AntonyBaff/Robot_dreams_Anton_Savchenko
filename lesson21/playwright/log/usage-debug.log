@@ -1,0 +1,786 @@
+2025-04-09 21:10:23 - [32minfo[39m: Creating configuration file...
+2025-04-09 21:10:23 - [34mdebug[39m: requireModuleV3 :: module - @playwright/test/package.json, package - @playwright/test
+2025-04-09 21:10:23 - [34mdebug[39m: Resolved from resolveModuleV3 :: Path - /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/node_modules/@playwright/test/package.json
+2025-04-09 21:10:23 - [34mdebug[39m: requireModuleV3 :: module - selenium-webdriver/package.json, package - selenium-webdriver
+2025-04-09 21:10:23 - [34mdebug[39m: Unable to resolve module with requireModuleV3 with error: Error: Cannot find module 'selenium-webdriver'
+Require stack:
+- /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/node_modules/browserstack-node-sdk/src/helpers/helper.js
+- /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/node_modules/browserstack-node-sdk/src/bin/setup.js
+2025-04-09 21:10:23 - [34mdebug[39m: requireModuleV2 :: module - selenium-webdriver/package.json, package - selenium-webdriver
+2025-04-09 21:10:23 - [34mdebug[39m: Getting selenium-webdriver/package.json from /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21
+2025-04-09 21:10:23 - [34mdebug[39m: selenium-webdriver/package.json doesn't exist at /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21
+2025-04-09 21:10:23 - [34mdebug[39m: Getting selenium-webdriver/package.json from path /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21
+2025-04-09 21:10:23 - [34mdebug[39m: Getting selenium-webdriver/package.json from null
+2025-04-09 21:10:23 - [34mdebug[39m: Error while loading package. Error: selenium-webdriver/package.json doesn't exist.
+2025-04-09 21:10:23 - [34mdebug[39m: requireModuleV3 :: module - selenium-webdriver/package.json, package - selenium-webdriver
+2025-04-09 21:10:23 - [34mdebug[39m: Unable to resolve module with requireModuleV3 with error: Error: Cannot find module 'selenium-webdriver'
+Require stack:
+- /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/node_modules/browserstack-node-sdk/src/helpers/helper.js
+- /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/node_modules/browserstack-node-sdk/src/bin/setup.js
+2025-04-09 21:10:23 - [34mdebug[39m: requireModuleV2 :: module - selenium-webdriver/package.json, package - selenium-webdriver
+2025-04-09 21:10:23 - [34mdebug[39m: Getting selenium-webdriver/package.json from /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21
+2025-04-09 21:10:23 - [34mdebug[39m: selenium-webdriver/package.json doesn't exist at /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21
+2025-04-09 21:10:23 - [34mdebug[39m: Getting selenium-webdriver/package.json from path /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21
+2025-04-09 21:10:23 - [34mdebug[39m: Getting selenium-webdriver/package.json from null
+2025-04-09 21:10:23 - [34mdebug[39m: Error while loading package. Error: selenium-webdriver/package.json doesn't exist.
+2025-04-09 21:10:23 - [34mdebug[39m: Firing SDK event for funnel data: {"userName":"[REDACTED]","accessKey":"[REDACTED]","event_type":"SDKSetup","detectedFramework":"","optimalHubUrl":[],"event_properties":{"testhub_uuid":"","product_map":{"observability":true,"accessibility":false,"percy":false,"automate":true,"app_automate":false,"central_scanner":false,"lcnc":false},"productMap":{"observability":true,"accessibility":false,"percy":false,"automate":true,"app_automate":false,"central_scanner":false,"lcnc":false},"language_framework":"node-setup","referrer":"nodeagent/1.34.51","frameworkVersion":null,"automationFramework":"selenium","automationFrameworkVersion":null,"language":"nodejs","languageVersion":"v22.2.0","product":["automate","observability"],"buildName":"browserstack build","buildIdentifier":"#${BUILD_NUMBER}","os":"Darwin","hostname":"MacBookAirAnton.local","seleniumVersion":null}}
+2025-04-09 21:10:23 - [32minfo[39m: Adding new script(s) in package.json...
+2025-04-09 21:10:23 - [32minfo[39m: Setup completed
+2025-04-09 21:10:24 - [34mdebug[39m: API Event SDKSetup response - {"data":{"message":"SDK Event recorded successfully"},"body":"{\"message\":\"SDK Event recorded successfully\"}","statusCode":200}
+2025-04-09 21:11:37 - [32minfo[39m: Running SDK with args /Users/anton_savchenko/.nvm/versions/node/v22.2.0/bin/node /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/node_modules/.bin/browserstack-node-sdk playwright test
+2025-04-09 21:11:37 - [32minfo[39m: Reading configs from /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/browserstack.yml
+2025-04-09 21:11:37 - [32minfo[39m: SDK run started with id: c59a6fb6-6f6e-4fe0-98dd-b3346b558913
+2025-04-09 21:11:37 - [34mdebug[39m: requireModuleV3 :: module - @playwright/test/package.json, package - @playwright/test
+2025-04-09 21:11:37 - [34mdebug[39m: Resolved from resolveModuleV3 :: Path - /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/node_modules/@playwright/test/package.json
+2025-04-09 21:11:37 - [34mdebug[39m: requireModuleV3 :: module - selenium-webdriver/package.json, package - selenium-webdriver
+2025-04-09 21:11:37 - [34mdebug[39m: Unable to resolve module with requireModuleV3 with error: Error: Cannot find module 'selenium-webdriver'
+Require stack:
+- /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/node_modules/browserstack-node-sdk/src/helpers/helper.js
+- /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/node_modules/browserstack-node-sdk/src/bin/runner.js
+2025-04-09 21:11:37 - [34mdebug[39m: requireModuleV2 :: module - selenium-webdriver/package.json, package - selenium-webdriver
+2025-04-09 21:11:37 - [34mdebug[39m: Getting selenium-webdriver/package.json from /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21
+2025-04-09 21:11:37 - [34mdebug[39m: selenium-webdriver/package.json doesn't exist at /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21
+2025-04-09 21:11:37 - [34mdebug[39m: Getting selenium-webdriver/package.json from path /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21
+2025-04-09 21:11:37 - [34mdebug[39m: Getting selenium-webdriver/package.json from null
+2025-04-09 21:11:37 - [34mdebug[39m: Error while loading package. Error: selenium-webdriver/package.json doesn't exist.
+2025-04-09 21:11:37 - [34mdebug[39m: requireModuleV3 :: module - playwright/lib/transform/transform.js, package - playwright
+2025-04-09 21:11:37 - [34mdebug[39m: Resolved from resolveModuleV3 :: Path - /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/node_modules/playwright/lib/transform/transform.js
+2025-04-09 21:11:37 - [34mdebug[39m: Firing SDK event for funnel data: {"userName":"[REDACTED]","accessKey":"[REDACTED]","event_type":"SDKTestAttempted","detectedFramework":"Playwright","optimalHubUrl":[],"event_properties":{"testhub_uuid":"","sdkRunId":"c59a6fb6-6f6e-4fe0-98dd-b3346b558913","product_map":{"observability":true,"accessibility":false,"percy":false,"automate":false,"app_automate":false,"central_scanner":false,"lcnc":false},"productMap":{"observability":true,"accessibility":false,"percy":false,"automate":false,"app_automate":false,"central_scanner":false,"lcnc":false},"language_framework":"unknown","referrer":"Playwright-nodeagent/1.34.51","frameworkVersion":"1.51.1","automationFramework":"selenium","automationFrameworkVersion":null,"language":"nodejs","languageVersion":"v22.2.0","product":["observability"],"buildName":"browserstack build","buildIdentifier":"#1","os":"Darwin","hostname":"MacBookAirAnton.local","playwrightVersion":{}}}
+2025-04-09 21:11:38 - [34mdebug[39m: Response: {"hubs":["hub-euw.browserstack.com","hub-use.browserstack.com","hub-aps.browserstack.com"]}
+2025-04-09 21:11:38 - [34mdebug[39m: NEAREST HUBS: ["hub-euw.browserstack.com","hub-use.browserstack.com","hub-aps.browserstack.com"]
+2025-04-09 21:11:38 - [34mdebug[39m: Execution time for https://hub-euw.browserstack.com is: 252ms
+2025-04-09 21:11:38 - [34mdebug[39m: API Event SDKTestAttempted response - {"data":{"message":"SDK Event recorded successfully"},"body":"{\"message\":\"SDK Event recorded successfully\"}","statusCode":200}
+2025-04-09 21:11:39 - [34mdebug[39m: Execution time for https://hub-use.browserstack.com is: 618ms
+2025-04-09 21:11:39 - [34mdebug[39m: Execution time for https://hub-aps.browserstack.com is: 756ms
+2025-04-09 21:11:39 - [34mdebug[39m: HUB URL SET TO - https://hub-euw.browserstack.com
+2025-04-09 21:11:39 - [34mdebug[39m: requireModuleV3 :: module - playwright/lib/common/configLoader.js, package - playwright
+2025-04-09 21:11:39 - [34mdebug[39m: Resolved from resolveModuleV3 :: Path - /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/node_modules/playwright/lib/common/configLoader.js
+2025-04-09 21:11:40 - [34mdebug[39m: [OBSERVABILITY] Build Created Successfully with hashed id: xcc03ciqo8gwxc0nh05kb04r54v6oag3y4sbjr6g
+2025-04-09 21:11:40 - [34mdebug[39m: BROWSERSTACK_TESTHUB_UUID: xcc03ciqo8gwxc0nh05kb04r54v6oag3y4sbjr6g
+2025-04-09 21:11:40 - [32minfo[39m: Testhub started with id: xcc03ciqo8gwxc0nh05kb04r54v6oag3y4sbjr6g
+2025-04-09 21:11:40 - [34mdebug[39m: Updated config file name to - playwright-browserstack-sdk.config.ts
+2025-04-09 21:11:42 - [34mdebug[39m: requireModuleV3 :: module - @playwright/test/package.json, package - @playwright/test
+2025-04-09 21:11:42 - [34mdebug[39m: Resolved from resolveModuleV3 :: Path - /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/node_modules/@playwright/test/package.json
+2025-04-09 21:11:42 - [34mdebug[39m: requireModuleV3 :: module - playwright/lib/transform/transform.js, package - playwright
+2025-04-09 21:11:42 - [34mdebug[39m: Resolved from resolveModuleV3 :: Path - /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/node_modules/playwright/lib/transform/transform.js
+[34mdebug[39m: [2025-04-09T18:11:42.696Z][ OBSERVABILITY ] Call to child fork with args /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/node_modules/playwright/lib/common/process.js
+[34mdebug[39m: [2025-04-09T18:11:42.700Z][ OBSERVABILITY ] Call to child fork with args /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/node_modules/playwright/lib/common/process.js
+2025-04-09 21:11:44 - [34mdebug[39m: requireModuleV3 :: module - @playwright/test/package.json, package - @playwright/test
+2025-04-09 21:11:44 - [34mdebug[39m: requireModuleV3 :: module - @playwright/test/package.json, package - @playwright/test
+2025-04-09 21:11:44 - [34mdebug[39m: Resolved from resolveModuleV3 :: Path - /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/node_modules/@playwright/test/package.json
+2025-04-09 21:11:44 - [34mdebug[39m: requireModuleV3 :: module - playwright/lib/common/process.js, package - playwright
+2025-04-09 21:11:44 - [34mdebug[39m: Resolved from resolveModuleV3 :: Path - /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/node_modules/playwright/lib/common/process.js
+2025-04-09 21:11:44 - [34mdebug[39m: requireModuleV3 :: module - @playwright/test/index.js, package - @playwright/test
+2025-04-09 21:11:44 - [34mdebug[39m: Resolved from resolveModuleV3 :: Path - /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/node_modules/@playwright/test/index.js
+2025-04-09 21:11:44 - [34mdebug[39m: requireModuleV3 :: module - @playwright/test/node_modules/playwright-core, package - @playwright/test
+2025-04-09 21:11:44 - [34mdebug[39m: requireModuleV2 :: module - @playwright/test/node_modules/playwright-core, package - @playwright/test
+2025-04-09 21:11:44 - [34mdebug[39m: Getting @playwright/test/node_modules/playwright-core from /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21
+2025-04-09 21:11:44 - [34mdebug[39m: @playwright/test/node_modules/playwright-core doesn't exist at /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21
+2025-04-09 21:11:44 - [34mdebug[39m: Getting @playwright/test/node_modules/playwright-core from path /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21
+2025-04-09 21:11:44 - [34mdebug[39m: Getting @playwright/test/node_modules/playwright-core from null
+2025-04-09 21:11:44 - [34mdebug[39m: requireModuleV2 :: module - playwright-core, package - null
+2025-04-09 21:11:44 - [34mdebug[39m: Resolved path for playwright-core is /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/node_modules/playwright-core
+2025-04-09 21:11:44 - [34mdebug[39m: requireModuleV2 :: module - /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/node_modules/playwright-core/lib/client/connection.js, package - null
+2025-04-09 21:11:44 - [34mdebug[39m: Resolved from resolveModuleV3 :: Path - /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/node_modules/@playwright/test/package.json
+2025-04-09 21:11:44 - [34mdebug[39m: requireModuleV3 :: module - playwright/lib/common/process.js, package - playwright
+2025-04-09 21:11:44 - [34mdebug[39m: Resolved from resolveModuleV3 :: Path - /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/node_modules/playwright/lib/common/process.js
+2025-04-09 21:11:44 - [34mdebug[39m: requireModuleV3 :: module - @playwright/test/index.js, package - @playwright/test
+2025-04-09 21:11:44 - [34mdebug[39m: Resolved from resolveModuleV3 :: Path - /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/node_modules/@playwright/test/index.js
+2025-04-09 21:11:44 - [34mdebug[39m: requireModuleV3 :: module - @playwright/test/node_modules/playwright-core, package - @playwright/test
+2025-04-09 21:11:44 - [34mdebug[39m: requireModuleV2 :: module - @playwright/test/node_modules/playwright-core, package - @playwright/test
+2025-04-09 21:11:44 - [34mdebug[39m: Getting @playwright/test/node_modules/playwright-core from /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21
+2025-04-09 21:11:44 - [34mdebug[39m: @playwright/test/node_modules/playwright-core doesn't exist at /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21
+2025-04-09 21:11:44 - [34mdebug[39m: Getting @playwright/test/node_modules/playwright-core from path /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21
+2025-04-09 21:11:44 - [34mdebug[39m: Getting @playwright/test/node_modules/playwright-core from null
+2025-04-09 21:11:44 - [34mdebug[39m: requireModuleV2 :: module - playwright-core, package - null
+2025-04-09 21:11:44 - [34mdebug[39m: Resolved path for playwright-core is /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/node_modules/playwright-core
+2025-04-09 21:11:44 - [34mdebug[39m: requireModuleV2 :: module - /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/node_modules/playwright-core/lib/client/connection.js, package - null
+2025-04-09 21:11:44 - [34mdebug[39m: requireModuleV3 :: module - playwright/lib/transform/transform.js, package - playwright
+2025-04-09 21:11:44 - [34mdebug[39m: Resolved from resolveModuleV3 :: Path - /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/node_modules/playwright/lib/transform/transform.js
+2025-04-09 21:11:44 - [34mdebug[39m: requireModuleV3 :: module - playwright/lib/transform/transform.js, package - playwright
+2025-04-09 21:11:44 - [34mdebug[39m: Resolved from resolveModuleV3 :: Path - /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/node_modules/playwright/lib/transform/transform.js
+[35msilly[39m: [2025-04-09T18:11:45.006Z][ OBSERVABILITY ] Test Started with unique id chromium-0d06c39b93f6c2963d23-e9ebda90fb1eb1d1eeba
+[35msilly[39m: [2025-04-09T18:11:45.009Z][ OBSERVABILITY ] Started :: beforeWorkerHook, PID - 17471, Argument - 0
+[35msilly[39m: [2025-04-09T18:11:45.009Z][ OBSERVABILITY ] Started :: beforeWorkerHook, PID - 17470, Argument - 1
+2025-04-09 21:11:45 - [34mdebug[39m: Searching for key: path
+[35msilly[39m: [2025-04-09T18:11:45.008Z][ OBSERVABILITY ] Processing event - 'TestRunStarted' f3a84c85-b016-427a-bce2-03431412f1ec
+[35msilly[39m: [2025-04-09T18:11:45.012Z][ OBSERVABILITY ] Test Started with unique id chromium-0d06c39b93f6c2963d23-c274be13e148bd5eebab
+2025-04-09 21:11:45 - [34mdebug[39m: Searching for key: path
+[35msilly[39m: [2025-04-09T18:11:45.014Z][ OBSERVABILITY ] Processing event - 'TestRunStarted' e50bad54-f039-45dd-9632-fb2a8ee28aab
+2025-04-09 21:11:45 - [34mdebug[39m: requireModuleV3 :: module - @playwright/test/node_modules/playwright-core, package - @playwright/test
+2025-04-09 21:11:45 - [34mdebug[39m: requireModuleV2 :: module - @playwright/test/node_modules/playwright-core, package - @playwright/test
+2025-04-09 21:11:45 - [34mdebug[39m: Getting @playwright/test/node_modules/playwright-core from /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21
+2025-04-09 21:11:45 - [34mdebug[39m: @playwright/test/node_modules/playwright-core doesn't exist at /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21
+2025-04-09 21:11:45 - [34mdebug[39m: Getting @playwright/test/node_modules/playwright-core from path /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21
+2025-04-09 21:11:45 - [34mdebug[39m: Getting @playwright/test/node_modules/playwright-core from null
+2025-04-09 21:11:45 - [34mdebug[39m: requireModuleV2 :: module - playwright-core, package - null
+2025-04-09 21:11:45 - [34mdebug[39m: Resolved path for playwright-core is /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/node_modules/playwright-core
+2025-04-09 21:11:45 - [34mdebug[39m: requireModuleV2 :: module - /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/node_modules/playwright-core/lib/client/browserType.js, package - null
+2025-04-09 21:11:45 - [34mdebug[39m: requireModuleV3 :: module - @playwright/test/node_modules/playwright-core, package - @playwright/test
+2025-04-09 21:11:45 - [34mdebug[39m: requireModuleV2 :: module - @playwright/test/node_modules/playwright-core, package - @playwright/test
+2025-04-09 21:11:45 - [34mdebug[39m: Getting @playwright/test/node_modules/playwright-core from /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21
+2025-04-09 21:11:45 - [34mdebug[39m: @playwright/test/node_modules/playwright-core doesn't exist at /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21
+2025-04-09 21:11:45 - [34mdebug[39m: Getting @playwright/test/node_modules/playwright-core from path /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21
+2025-04-09 21:11:45 - [34mdebug[39m: Getting @playwright/test/node_modules/playwright-core from null
+2025-04-09 21:11:45 - [34mdebug[39m: requireModuleV2 :: module - playwright-core, package - null
+2025-04-09 21:11:45 - [34mdebug[39m: Resolved path for playwright-core is /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/node_modules/playwright-core
+2025-04-09 21:11:45 - [34mdebug[39m: requireModuleV2 :: module - /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/node_modules/playwright-core/lib/client/browserContext.js, package - null
+2025-04-09 21:11:45 - [34mdebug[39m: requireModuleV3 :: module - @playwright/test/node_modules/playwright-core, package - @playwright/test
+2025-04-09 21:11:45 - [34mdebug[39m: requireModuleV2 :: module - @playwright/test/node_modules/playwright-core, package - @playwright/test
+2025-04-09 21:11:45 - [34mdebug[39m: Getting @playwright/test/node_modules/playwright-core from /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21
+2025-04-09 21:11:45 - [34mdebug[39m: @playwright/test/node_modules/playwright-core doesn't exist at /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21
+2025-04-09 21:11:45 - [34mdebug[39m: Getting @playwright/test/node_modules/playwright-core from path /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21
+2025-04-09 21:11:45 - [34mdebug[39m: Getting @playwright/test/node_modules/playwright-core from null
+2025-04-09 21:11:45 - [34mdebug[39m: requireModuleV2 :: module - playwright-core, package - null
+2025-04-09 21:11:45 - [34mdebug[39m: Resolved path for playwright-core is /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/node_modules/playwright-core
+2025-04-09 21:11:45 - [34mdebug[39m: requireModuleV2 :: module - /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/node_modules/playwright-core/lib/client/android.js, package - null
+2025-04-09 21:11:45 - [34mdebug[39m: requireModuleV3 :: module - @playwright/test/node_modules/playwright-core, package - @playwright/test
+2025-04-09 21:11:45 - [34mdebug[39m: requireModuleV2 :: module - @playwright/test/node_modules/playwright-core, package - @playwright/test
+2025-04-09 21:11:45 - [34mdebug[39m: Getting @playwright/test/node_modules/playwright-core from /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21
+2025-04-09 21:11:45 - [34mdebug[39m: @playwright/test/node_modules/playwright-core doesn't exist at /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21
+2025-04-09 21:11:45 - [34mdebug[39m: Getting @playwright/test/node_modules/playwright-core from path /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21
+2025-04-09 21:11:45 - [34mdebug[39m: Getting @playwright/test/node_modules/playwright-core from null
+2025-04-09 21:11:45 - [34mdebug[39m: requireModuleV2 :: module - playwright-core, package - null
+2025-04-09 21:11:45 - [34mdebug[39m: Resolved path for playwright-core is /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/node_modules/playwright-core
+2025-04-09 21:11:45 - [34mdebug[39m: requireModuleV2 :: module - /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/node_modules/playwright-core/lib/client/page.js, package - null
+[35msilly[39m: [2025-04-09T18:11:45.017Z][ OBSERVABILITY ] Finished :: beforeWorkerHook, PID - 17471, Argument - 0
+[34mdebug[39m: [2025-04-09T18:11:45.018Z][ OBSERVABILITY ] Worker Hook started, PID 17471
+[34mdebug[39m: [2025-04-09T18:11:45.026Z][ OBSERVABILITY ] Test Hook started, PID 17471
+[35msilly[39m: [2025-04-09T18:11:45.027Z][ OBSERVABILITY ] Started :: beforeTestHook, PID - 17471, Argument - login
+[35msilly[39m: [2025-04-09T18:11:45.027Z][ OBSERVABILITY ] Sending session details at beforeTestHook
+[35msilly[39m: [2025-04-09T18:11:45.027Z][ OBSERVABILITY ] Finished :: beforeTestHook, PID - 17471, Argument - login
+2025-04-09 21:11:45 - [34mdebug[39m: Error in connecting for android TypeError: Cannot read properties of null (reading 'deviceName')
+2025-04-09 21:11:45 - [34mdebug[39m: requireModuleV3 :: module - @playwright/test/node_modules/playwright-core, package - @playwright/test
+2025-04-09 21:11:45 - [34mdebug[39m: requireModuleV2 :: module - @playwright/test/node_modules/playwright-core, package - @playwright/test
+2025-04-09 21:11:45 - [34mdebug[39m: Getting @playwright/test/node_modules/playwright-core from /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21
+2025-04-09 21:11:45 - [34mdebug[39m: @playwright/test/node_modules/playwright-core doesn't exist at /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21
+2025-04-09 21:11:45 - [34mdebug[39m: Getting @playwright/test/node_modules/playwright-core from path /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21
+2025-04-09 21:11:45 - [34mdebug[39m: Getting @playwright/test/node_modules/playwright-core from null
+2025-04-09 21:11:45 - [34mdebug[39m: requireModuleV2 :: module - playwright-core, package - null
+2025-04-09 21:11:45 - [34mdebug[39m: Resolved path for playwright-core is /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/node_modules/playwright-core
+2025-04-09 21:11:45 - [34mdebug[39m: requireModuleV2 :: module - /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/node_modules/playwright-core/lib/client/browserType.js, package - null
+2025-04-09 21:11:45 - [34mdebug[39m: requireModuleV3 :: module - @playwright/test/node_modules/playwright-core, package - @playwright/test
+2025-04-09 21:11:45 - [34mdebug[39m: requireModuleV2 :: module - @playwright/test/node_modules/playwright-core, package - @playwright/test
+2025-04-09 21:11:45 - [34mdebug[39m: Getting @playwright/test/node_modules/playwright-core from /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21
+2025-04-09 21:11:45 - [34mdebug[39m: @playwright/test/node_modules/playwright-core doesn't exist at /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21
+2025-04-09 21:11:45 - [34mdebug[39m: Getting @playwright/test/node_modules/playwright-core from path /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21
+2025-04-09 21:11:45 - [34mdebug[39m: Getting @playwright/test/node_modules/playwright-core from null
+2025-04-09 21:11:45 - [34mdebug[39m: requireModuleV2 :: module - playwright-core, package - null
+2025-04-09 21:11:45 - [34mdebug[39m: Resolved path for playwright-core is /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/node_modules/playwright-core
+2025-04-09 21:11:45 - [34mdebug[39m: requireModuleV2 :: module - /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/node_modules/playwright-core/lib/client/browserContext.js, package - null
+2025-04-09 21:11:45 - [34mdebug[39m: requireModuleV3 :: module - @playwright/test/node_modules/playwright-core, package - @playwright/test
+2025-04-09 21:11:45 - [34mdebug[39m: requireModuleV2 :: module - @playwright/test/node_modules/playwright-core, package - @playwright/test
+2025-04-09 21:11:45 - [34mdebug[39m: Getting @playwright/test/node_modules/playwright-core from /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21
+2025-04-09 21:11:45 - [34mdebug[39m: @playwright/test/node_modules/playwright-core doesn't exist at /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21
+2025-04-09 21:11:45 - [34mdebug[39m: Getting @playwright/test/node_modules/playwright-core from path /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21
+2025-04-09 21:11:45 - [34mdebug[39m: Getting @playwright/test/node_modules/playwright-core from null
+2025-04-09 21:11:45 - [34mdebug[39m: requireModuleV2 :: module - playwright-core, package - null
+2025-04-09 21:11:45 - [34mdebug[39m: Resolved path for playwright-core is /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/node_modules/playwright-core
+2025-04-09 21:11:45 - [34mdebug[39m: requireModuleV2 :: module - /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/node_modules/playwright-core/lib/client/android.js, package - null
+2025-04-09 21:11:45 - [34mdebug[39m: requireModuleV3 :: module - @playwright/test/node_modules/playwright-core, package - @playwright/test
+2025-04-09 21:11:45 - [34mdebug[39m: requireModuleV2 :: module - @playwright/test/node_modules/playwright-core, package - @playwright/test
+2025-04-09 21:11:45 - [34mdebug[39m: Getting @playwright/test/node_modules/playwright-core from /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21
+2025-04-09 21:11:45 - [34mdebug[39m: @playwright/test/node_modules/playwright-core doesn't exist at /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21
+2025-04-09 21:11:45 - [34mdebug[39m: Getting @playwright/test/node_modules/playwright-core from path /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21
+2025-04-09 21:11:45 - [34mdebug[39m: Getting @playwright/test/node_modules/playwright-core from null
+2025-04-09 21:11:45 - [34mdebug[39m: requireModuleV2 :: module - playwright-core, package - null
+2025-04-09 21:11:45 - [34mdebug[39m: Resolved path for playwright-core is /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/node_modules/playwright-core
+2025-04-09 21:11:45 - [34mdebug[39m: requireModuleV2 :: module - /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/node_modules/playwright-core/lib/client/page.js, package - null
+[35msilly[39m: [2025-04-09T18:11:45.018Z][ OBSERVABILITY ] Finished :: beforeWorkerHook, PID - 17470, Argument - 1
+[34mdebug[39m: [2025-04-09T18:11:45.018Z][ OBSERVABILITY ] Worker Hook started, PID 17470
+[34mdebug[39m: [2025-04-09T18:11:45.027Z][ OBSERVABILITY ] Test Hook started, PID 17470
+[35msilly[39m: [2025-04-09T18:11:45.027Z][ OBSERVABILITY ] Started :: beforeTestHook, PID - 17470, Argument - Add ticket to cart
+[35msilly[39m: [2025-04-09T18:11:45.028Z][ OBSERVABILITY ] Sending session details at beforeTestHook
+[35msilly[39m: [2025-04-09T18:11:45.028Z][ OBSERVABILITY ] Finished :: beforeTestHook, PID - 17470, Argument - Add ticket to cart
+2025-04-09 21:11:45 - [34mdebug[39m: Error in connecting for android TypeError: Cannot read properties of null (reading 'deviceName')
+2025-04-09 21:11:46 - [34mdebug[39m: Device Model is not available
+2025-04-09 21:11:46 - [34mdebug[39m: Device Model is not available
+[35msilly[39m: [2025-04-09T18:11:46.151Z][ OBSERVABILITY ] Sending session details at launch
+2025-04-09 21:11:46 - [34mdebug[39m: Device Model is not available
+[35msilly[39m: [2025-04-09T18:11:46.175Z][ OBSERVABILITY ] Sending session details at browser fixture
+[34mdebug[39m: [2025-04-09T18:11:46.179Z][ OBSERVABILITY ] Sending session details for chromium-0d06c39b93f6c2963d23-c274be13e148bd5eebab-0, {
+  local_grid: {
+    browser: 'playwright-chromium',
+    browser_version: '134.0.6998.35',
+    capabilities: {},
+    platform: 'OS X',
+    platform_version: 'Sonoma',
+    product: null,
+    session_id: undefined
+  }
+}
+[35msilly[39m: [2025-04-09T18:11:46.180Z][ OBSERVABILITY ] Processing event - 'CBTSessionCreated' e50bad54-f039-45dd-9632-fb2a8ee28aab
+[35msilly[39m: [2025-04-09T18:11:46.151Z][ OBSERVABILITY ] Sending session details at launch
+2025-04-09 21:11:46 - [34mdebug[39m: Device Model is not available
+[35msilly[39m: [2025-04-09T18:11:46.177Z][ OBSERVABILITY ] Sending session details at browser fixture
+[34mdebug[39m: [2025-04-09T18:11:46.181Z][ OBSERVABILITY ] Sending session details for chromium-0d06c39b93f6c2963d23-e9ebda90fb1eb1d1eeba-0, {
+  local_grid: {
+    browser: 'playwright-chromium',
+    browser_version: '134.0.6998.35',
+    capabilities: {},
+    platform: 'OS X',
+    platform_version: 'Sonoma',
+    product: null,
+    session_id: undefined
+  }
+}
+[35msilly[39m: [2025-04-09T18:11:46.182Z][ OBSERVABILITY ] Processing event - 'CBTSessionCreated' f3a84c85-b016-427a-bce2-03431412f1ec
+[35msilly[39m: [2025-04-09T18:11:47.012Z][ OBSERVABILITY ] Processing events. Queue Length - 2
+[34mdebug[39m: [2025-04-09T18:11:47.012Z][ OBSERVABILITY ] Processing batch events for Interval-Queue. Request Size - 2263 bytes. Events are 'TestRunStarted':f3a84c85-b016-427a-bce2-03431412f1ec,'TestRunStarted':e50bad54-f039-45dd-9632-fb2a8ee28aab
+[34mdebug[39m: [2025-04-09T18:11:47.711Z][ OBSERVABILITY ] Interval-Queue event successful for events 'TestRunStarted':f3a84c85-b016-427a-bce2-03431412f1ec,'TestRunStarted':e50bad54-f039-45dd-9632-fb2a8ee28aab -- {"success":true}
+[35msilly[39m: [2025-04-09T18:11:47.711Z][ OBSERVABILITY ] Remaining Queue Length - 0
+[35msilly[39m: [2025-04-09T18:11:48.182Z][ OBSERVABILITY ] Processing events. Queue Length - 1
+[35msilly[39m: [2025-04-09T18:11:48.184Z][ OBSERVABILITY ] Processing events. Queue Length - 1
+[34mdebug[39m: [2025-04-09T18:11:48.185Z][ OBSERVABILITY ] Processing batch events for Interval-Queue. Request Size - 272 bytes. Events are 'CBTSessionCreated':f3a84c85-b016-427a-bce2-03431412f1ec
+[34mdebug[39m: [2025-04-09T18:11:48.183Z][ OBSERVABILITY ] Processing batch events for Interval-Queue. Request Size - 272 bytes. Events are 'CBTSessionCreated':e50bad54-f039-45dd-9632-fb2a8ee28aab
+[35msilly[39m: [2025-04-09T18:11:48.765Z][ OBSERVABILITY ] Processing event - 'LogCreated' undefined
+[34mdebug[39m: [2025-04-09T18:11:48.778Z][ OBSERVABILITY ] Interval-Queue event successful for events 'CBTSessionCreated':e50bad54-f039-45dd-9632-fb2a8ee28aab -- {"success":true}
+[35msilly[39m: [2025-04-09T18:11:48.778Z][ OBSERVABILITY ] Remaining Queue Length - 1
+[35msilly[39m: [2025-04-09T18:11:48.848Z][ OBSERVABILITY ] Processing event - 'LogCreated' undefined
+[34mdebug[39m: [2025-04-09T18:11:48.861Z][ OBSERVABILITY ] Interval-Queue event successful for events 'CBTSessionCreated':f3a84c85-b016-427a-bce2-03431412f1ec -- {"success":true}
+[35msilly[39m: [2025-04-09T18:11:48.861Z][ OBSERVABILITY ] Remaining Queue Length - 1
+[35msilly[39m: [2025-04-09T18:11:50.181Z][ OBSERVABILITY ] Processing events. Queue Length - 1
+[35msilly[39m: [2025-04-09T18:11:50.183Z][ OBSERVABILITY ] Processing events. Queue Length - 1
+[34mdebug[39m: [2025-04-09T18:11:50.182Z][ OBSERVABILITY ] Processing batch events for Interval-Queue. Request Size - 1319 bytes. Events are 'LogCreated':undefined
+[34mdebug[39m: [2025-04-09T18:11:50.184Z][ OBSERVABILITY ] Processing batch events for Interval-Queue. Request Size - 1319 bytes. Events are 'LogCreated':undefined
+[35msilly[39m: [2025-04-09T18:11:50.335Z][ OBSERVABILITY ] Processing event - 'LogCreated' undefined
+[35msilly[39m: [2025-04-09T18:11:50.337Z][ OBSERVABILITY ] Processing event - 'LogCreated' undefined
+[34mdebug[39m: [2025-04-09T18:11:50.337Z][ OBSERVABILITY ] Interval-Queue event successful for events 'LogCreated':undefined -- {"success":true}
+[35msilly[39m: [2025-04-09T18:11:50.337Z][ OBSERVABILITY ] Remaining Queue Length - 1
+[34mdebug[39m: [2025-04-09T18:11:50.341Z][ OBSERVABILITY ] Interval-Queue event successful for events 'LogCreated':undefined -- {"success":true}
+[35msilly[39m: [2025-04-09T18:11:50.341Z][ OBSERVABILITY ] Remaining Queue Length - 1
+[35msilly[39m: [2025-04-09T18:11:52.183Z][ OBSERVABILITY ] Processing events. Queue Length - 1
+[34mdebug[39m: [2025-04-09T18:11:52.183Z][ OBSERVABILITY ] Processing batch events for Interval-Queue. Request Size - 1320 bytes. Events are 'LogCreated':undefined
+[35msilly[39m: [2025-04-09T18:11:52.185Z][ OBSERVABILITY ] Processing events. Queue Length - 1
+[34mdebug[39m: [2025-04-09T18:11:52.185Z][ OBSERVABILITY ] Processing batch events for Interval-Queue. Request Size - 1320 bytes. Events are 'LogCreated':undefined
+[35msilly[39m: [2025-04-09T18:11:52.374Z][ OBSERVABILITY ] Processing event - 'LogCreated' undefined
+[35msilly[39m: [2025-04-09T18:11:52.374Z][ OBSERVABILITY ] Processing event - 'LogCreated' undefined
+[34mdebug[39m: [2025-04-09T18:11:52.376Z][ OBSERVABILITY ] Interval-Queue event successful for events 'LogCreated':undefined -- {"success":true}
+[35msilly[39m: [2025-04-09T18:11:52.376Z][ OBSERVABILITY ] Remaining Queue Length - 1
+[34mdebug[39m: [2025-04-09T18:11:52.376Z][ OBSERVABILITY ] Interval-Queue event successful for events 'LogCreated':undefined -- {"success":true}
+[35msilly[39m: [2025-04-09T18:11:52.376Z][ OBSERVABILITY ] Remaining Queue Length - 1
+[35msilly[39m: [2025-04-09T18:11:54.200Z][ OBSERVABILITY ] Processing events. Queue Length - 1
+[35msilly[39m: [2025-04-09T18:11:54.200Z][ OBSERVABILITY ] Processing events. Queue Length - 1
+[34mdebug[39m: [2025-04-09T18:11:54.200Z][ OBSERVABILITY ] Processing batch events for Interval-Queue. Request Size - 1320 bytes. Events are 'LogCreated':undefined
+[34mdebug[39m: [2025-04-09T18:11:54.200Z][ OBSERVABILITY ] Processing batch events for Interval-Queue. Request Size - 1320 bytes. Events are 'LogCreated':undefined
+[35msilly[39m: [2025-04-09T18:11:54.360Z][ OBSERVABILITY ] Processing event - 'LogCreated' undefined
+[34mdebug[39m: [2025-04-09T18:11:54.362Z][ OBSERVABILITY ] Interval-Queue event successful for events 'LogCreated':undefined -- {"success":true}
+[35msilly[39m: [2025-04-09T18:11:54.362Z][ OBSERVABILITY ] Remaining Queue Length - 1
+[35msilly[39m: [2025-04-09T18:11:54.415Z][ OBSERVABILITY ] Processing event - 'LogCreated' undefined
+[34mdebug[39m: [2025-04-09T18:11:54.418Z][ OBSERVABILITY ] Interval-Queue event successful for events 'LogCreated':undefined -- {"success":true}
+[35msilly[39m: [2025-04-09T18:11:54.418Z][ OBSERVABILITY ] Remaining Queue Length - 1
+[35msilly[39m: [2025-04-09T18:11:56.218Z][ OBSERVABILITY ] Processing events. Queue Length - 1
+[35msilly[39m: [2025-04-09T18:11:56.209Z][ OBSERVABILITY ] Processing events. Queue Length - 1
+[34mdebug[39m: [2025-04-09T18:11:56.211Z][ OBSERVABILITY ] Processing batch events for Interval-Queue. Request Size - 1320 bytes. Events are 'LogCreated':undefined
+[34mdebug[39m: [2025-04-09T18:11:56.218Z][ OBSERVABILITY ] Processing batch events for Interval-Queue. Request Size - 1320 bytes. Events are 'LogCreated':undefined
+[35msilly[39m: [2025-04-09T18:11:56.375Z][ OBSERVABILITY ] Processing event - 'LogCreated' undefined
+[35msilly[39m: [2025-04-09T18:11:56.377Z][ OBSERVABILITY ] Processing event - 'LogCreated' undefined
+[34mdebug[39m: [2025-04-09T18:11:56.381Z][ OBSERVABILITY ] Interval-Queue event successful for events 'LogCreated':undefined -- {"success":true}
+[35msilly[39m: [2025-04-09T18:11:56.381Z][ OBSERVABILITY ] Remaining Queue Length - 1
+[34mdebug[39m: [2025-04-09T18:11:56.381Z][ OBSERVABILITY ] Interval-Queue event successful for events 'LogCreated':undefined -- {"success":true}
+[35msilly[39m: [2025-04-09T18:11:56.381Z][ OBSERVABILITY ] Remaining Queue Length - 1
+[35msilly[39m: [2025-04-09T18:11:58.211Z][ OBSERVABILITY ] Processing events. Queue Length - 1
+[34mdebug[39m: [2025-04-09T18:11:58.211Z][ OBSERVABILITY ] Processing batch events for Interval-Queue. Request Size - 1320 bytes. Events are 'LogCreated':undefined
+[35msilly[39m: [2025-04-09T18:11:58.218Z][ OBSERVABILITY ] Processing events. Queue Length - 1
+[34mdebug[39m: [2025-04-09T18:11:58.219Z][ OBSERVABILITY ] Processing batch events for Interval-Queue. Request Size - 1320 bytes. Events are 'LogCreated':undefined
+[35msilly[39m: [2025-04-09T18:11:58.702Z][ OBSERVABILITY ] Processing event - 'LogCreated' undefined
+[35msilly[39m: [2025-04-09T18:11:58.702Z][ OBSERVABILITY ] Processing event - 'LogCreated' undefined
+[34mdebug[39m: [2025-04-09T18:11:58.709Z][ OBSERVABILITY ] Interval-Queue event successful for events 'LogCreated':undefined -- {"success":true}
+[35msilly[39m: [2025-04-09T18:11:58.709Z][ OBSERVABILITY ] Remaining Queue Length - 1
+[34mdebug[39m: [2025-04-09T18:11:58.710Z][ OBSERVABILITY ] Interval-Queue event successful for events 'LogCreated':undefined -- {"success":true}
+[35msilly[39m: [2025-04-09T18:11:58.710Z][ OBSERVABILITY ] Remaining Queue Length - 1
+[35msilly[39m: [2025-04-09T18:11:59.479Z][ OBSERVABILITY ] Started :: afterTestHook, PID - 17470, Argument - Add ticket to cart
+[34mdebug[39m: [2025-04-09T18:11:59.480Z][ OBSERVABILITY ] Started :: Executing After Test Hook, PID - 17470, Test Title - Add ticket to cart, Test File - /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/tests/formula1-test.spec.ts
+[34mdebug[39m: [2025-04-09T18:11:59.481Z][ OBSERVABILITY ] Sending session details for chromium-0d06c39b93f6c2963d23-c274be13e148bd5eebab-0, {
+  local_grid: {
+    browser: 'playwright-chromium',
+    browser_version: '134.0.6998.35',
+    capabilities: {},
+    platform: 'OS X',
+    platform_version: 'Sonoma',
+    product: null,
+    session_id: undefined
+  }
+}
+[35msilly[39m: [2025-04-09T18:11:59.481Z][ OBSERVABILITY ] Processing event - 'CBTSessionCreated' e50bad54-f039-45dd-9632-fb2a8ee28aab
+[35msilly[39m: [2025-04-09T18:11:59.481Z][ OBSERVABILITY ] Finished :: afterTestHook, PID - 17470, Argument - Add ticket to cart
+2025-04-09 21:11:59 - [34mdebug[39m: Error in browserstack js executor  page.evaluate: Target page, context or browser has been closed
+[34mdebug[39m: [2025-04-09T18:11:59.486Z][ OBSERVABILITY ] Finished :: Executing After Test Hook, PID - 17470, Test Title - Add ticket to cart, Test File - /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/tests/formula1-test.spec.ts
+[34mdebug[39m: [2025-04-09T18:11:59.486Z][ OBSERVABILITY ] Test Hook ended, PID 17470
+[35msilly[39m: [2025-04-09T18:11:59.489Z][ OBSERVABILITY ] Test Finished with unique id chromium-0d06c39b93f6c2963d23-c274be13e148bd5eebab
+[35msilly[39m: [2025-04-09T18:11:59.491Z][ OBSERVABILITY ] Processing event - 'LogCreated' undefined
+2025-04-09 21:11:59 - [34mdebug[39m: Searching for key: path
+[35msilly[39m: [2025-04-09T18:11:59.492Z][ OBSERVABILITY ] Processing event - 'TestRunFinished' e50bad54-f039-45dd-9632-fb2a8ee28aab
+[34mdebug[39m: [2025-04-09T18:11:59.492Z][ OBSERVABILITY ] Starting sending trace zip for test: e50bad54-f039-45dd-9632-fb2a8ee28aab
+2025-04-09 21:11:59 - [34mdebug[39m: Checking if trace is enabled for test: e50bad54-f039-45dd-9632-fb2a8ee28aab
+2025-04-09 21:11:59 - [34mdebug[39m: Searching for key: path
+[35msilly[39m: [2025-04-09T18:11:59.676Z][ OBSERVABILITY ] Started :: afterWorkerHook, PID - 17470, Argument - 1
+[35msilly[39m: [2025-04-09T18:11:59.676Z][ OBSERVABILITY ] Finished :: afterWorkerHook, PID - 17470, Argument - 1
+[35msilly[39m: [2025-04-09T18:12:00.211Z][ OBSERVABILITY ] Processing events. Queue Length - 2
+[34mdebug[39m: [2025-04-09T18:12:00.212Z][ OBSERVABILITY ] Processing batch events for Interval-Queue. Request Size - 1591 bytes. Events are 'LogCreated':undefined,'CBTSessionCreated':e50bad54-f039-45dd-9632-fb2a8ee28aab
+[35msilly[39m: [2025-04-09T18:12:00.220Z][ OBSERVABILITY ] Processing events. Queue Length - 1
+[34mdebug[39m: [2025-04-09T18:12:00.221Z][ OBSERVABILITY ] Processing batch events for Interval-Queue. Request Size - 1320 bytes. Events are 'LogCreated':undefined
+[35msilly[39m: [2025-04-09T18:12:00.400Z][ OBSERVABILITY ] Processing event - 'LogCreated' undefined
+[34mdebug[39m: [2025-04-09T18:12:00.402Z][ OBSERVABILITY ] Interval-Queue event successful for events 'LogCreated':undefined,'CBTSessionCreated':e50bad54-f039-45dd-9632-fb2a8ee28aab -- {"success":true}
+[34mdebug[39m: [2025-04-09T18:12:00.402Z][ OBSERVABILITY ] Interval-Queue event successful for events 'LogCreated':undefined -- {"success":true}
+[35msilly[39m: [2025-04-09T18:12:00.402Z][ OBSERVABILITY ] Remaining Queue Length - 1
+[35msilly[39m: [2025-04-09T18:12:00.402Z][ OBSERVABILITY ] Remaining Queue Length - 0
+[34mdebug[39m: [2025-04-09T18:12:00.487Z][ OBSERVABILITY ] Finished :: Exiting Playwright worker, PID - 17470, WorkerIndex - 1
+[35msilly[39m: [2025-04-09T18:12:01.020Z][ OBSERVABILITY ] Processing events. Queue Length - 2
+[34mdebug[39m: [2025-04-09T18:12:01.020Z][ OBSERVABILITY ] Processing batch events for Interval-Queue. Request Size - 3338 bytes. Events are 'LogCreated':undefined,'TestRunFinished':e50bad54-f039-45dd-9632-fb2a8ee28aab
+[34mdebug[39m: [2025-04-09T18:12:01.215Z][ OBSERVABILITY ] Interval-Queue event successful for events 'LogCreated':undefined,'TestRunFinished':e50bad54-f039-45dd-9632-fb2a8ee28aab -- {"success":true}
+[35msilly[39m: [2025-04-09T18:12:01.216Z][ OBSERVABILITY ] Remaining Queue Length - 0
+[35msilly[39m: [2025-04-09T18:12:02.221Z][ OBSERVABILITY ] Processing events. Queue Length - 1
+[34mdebug[39m: [2025-04-09T18:12:02.221Z][ OBSERVABILITY ] Processing batch events for Interval-Queue. Request Size - 1320 bytes. Events are 'LogCreated':undefined
+[35msilly[39m: [2025-04-09T18:12:02.484Z][ OBSERVABILITY ] Processing event - 'LogCreated' undefined
+[34mdebug[39m: [2025-04-09T18:12:02.487Z][ OBSERVABILITY ] Interval-Queue event successful for events 'LogCreated':undefined -- {"success":true}
+[35msilly[39m: [2025-04-09T18:12:02.487Z][ OBSERVABILITY ] Remaining Queue Length - 1
+[35msilly[39m: [2025-04-09T18:12:04.222Z][ OBSERVABILITY ] Processing events. Queue Length - 1
+[34mdebug[39m: [2025-04-09T18:12:04.222Z][ OBSERVABILITY ] Processing batch events for Interval-Queue. Request Size - 1320 bytes. Events are 'LogCreated':undefined
+[35msilly[39m: [2025-04-09T18:12:04.623Z][ OBSERVABILITY ] Processing event - 'LogCreated' undefined
+[34mdebug[39m: [2025-04-09T18:12:04.625Z][ OBSERVABILITY ] Interval-Queue event successful for events 'LogCreated':undefined -- {"success":true}
+[35msilly[39m: [2025-04-09T18:12:04.625Z][ OBSERVABILITY ] Remaining Queue Length - 1
+[35msilly[39m: [2025-04-09T18:12:06.222Z][ OBSERVABILITY ] Processing events. Queue Length - 1
+[34mdebug[39m: [2025-04-09T18:12:06.223Z][ OBSERVABILITY ] Processing batch events for Interval-Queue. Request Size - 1320 bytes. Events are 'LogCreated':undefined
+[35msilly[39m: [2025-04-09T18:12:06.385Z][ OBSERVABILITY ] Processing event - 'LogCreated' undefined
+[34mdebug[39m: [2025-04-09T18:12:06.386Z][ OBSERVABILITY ] Interval-Queue event successful for events 'LogCreated':undefined -- {"success":true}
+[35msilly[39m: [2025-04-09T18:12:06.386Z][ OBSERVABILITY ] Remaining Queue Length - 1
+[35msilly[39m: [2025-04-09T18:12:08.223Z][ OBSERVABILITY ] Processing events. Queue Length - 1
+[34mdebug[39m: [2025-04-09T18:12:08.224Z][ OBSERVABILITY ] Processing batch events for Interval-Queue. Request Size - 1320 bytes. Events are 'LogCreated':undefined
+[35msilly[39m: [2025-04-09T18:12:08.436Z][ OBSERVABILITY ] Processing event - 'LogCreated' undefined
+[34mdebug[39m: [2025-04-09T18:12:08.438Z][ OBSERVABILITY ] Interval-Queue event successful for events 'LogCreated':undefined -- {"success":true}
+[35msilly[39m: [2025-04-09T18:12:08.438Z][ OBSERVABILITY ] Remaining Queue Length - 1
+[35msilly[39m: [2025-04-09T18:12:10.222Z][ OBSERVABILITY ] Processing events. Queue Length - 1
+[34mdebug[39m: [2025-04-09T18:12:10.223Z][ OBSERVABILITY ] Processing batch events for Interval-Queue. Request Size - 1320 bytes. Events are 'LogCreated':undefined
+[35msilly[39m: [2025-04-09T18:12:10.374Z][ OBSERVABILITY ] Processing event - 'LogCreated' undefined
+[34mdebug[39m: [2025-04-09T18:12:10.377Z][ OBSERVABILITY ] Interval-Queue event successful for events 'LogCreated':undefined -- {"success":true}
+[35msilly[39m: [2025-04-09T18:12:10.377Z][ OBSERVABILITY ] Remaining Queue Length - 1
+[35msilly[39m: [2025-04-09T18:12:12.224Z][ OBSERVABILITY ] Processing events. Queue Length - 1
+[34mdebug[39m: [2025-04-09T18:12:12.224Z][ OBSERVABILITY ] Processing batch events for Interval-Queue. Request Size - 1320 bytes. Events are 'LogCreated':undefined
+[35msilly[39m: [2025-04-09T18:12:12.375Z][ OBSERVABILITY ] Processing event - 'LogCreated' undefined
+[34mdebug[39m: [2025-04-09T18:12:12.377Z][ OBSERVABILITY ] Interval-Queue event successful for events 'LogCreated':undefined -- {"success":true}
+[35msilly[39m: [2025-04-09T18:12:12.377Z][ OBSERVABILITY ] Remaining Queue Length - 1
+[35msilly[39m: [2025-04-09T18:12:14.224Z][ OBSERVABILITY ] Processing events. Queue Length - 1
+[34mdebug[39m: [2025-04-09T18:12:14.225Z][ OBSERVABILITY ] Processing batch events for Interval-Queue. Request Size - 1320 bytes. Events are 'LogCreated':undefined
+[35msilly[39m: [2025-04-09T18:12:14.379Z][ OBSERVABILITY ] Processing event - 'LogCreated' undefined
+[34mdebug[39m: [2025-04-09T18:12:14.380Z][ OBSERVABILITY ] Interval-Queue event successful for events 'LogCreated':undefined -- {"success":true}
+[35msilly[39m: [2025-04-09T18:12:14.381Z][ OBSERVABILITY ] Remaining Queue Length - 1
+[35msilly[39m: [2025-04-09T18:12:16.225Z][ OBSERVABILITY ] Processing events. Queue Length - 1
+[34mdebug[39m: [2025-04-09T18:12:16.225Z][ OBSERVABILITY ] Processing batch events for Interval-Queue. Request Size - 1320 bytes. Events are 'LogCreated':undefined
+[35msilly[39m: [2025-04-09T18:12:16.373Z][ OBSERVABILITY ] Processing event - 'LogCreated' undefined
+[34mdebug[39m: [2025-04-09T18:12:16.373Z][ OBSERVABILITY ] Interval-Queue event successful for events 'LogCreated':undefined -- {"success":true}
+[35msilly[39m: [2025-04-09T18:12:16.373Z][ OBSERVABILITY ] Remaining Queue Length - 1
+[35msilly[39m: [2025-04-09T18:12:16.670Z][ OBSERVABILITY ] Started :: afterTestHook, PID - 17471, Argument - login
+[34mdebug[39m: [2025-04-09T18:12:16.671Z][ OBSERVABILITY ] Started :: Executing After Test Hook, PID - 17471, Test Title - login, Test File - /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/tests/formula1-test.spec.ts
+[34mdebug[39m: [2025-04-09T18:12:16.671Z][ OBSERVABILITY ] Sending session details for chromium-0d06c39b93f6c2963d23-e9ebda90fb1eb1d1eeba-0, {
+  local_grid: {
+    browser: 'playwright-chromium',
+    browser_version: '134.0.6998.35',
+    capabilities: {},
+    platform: 'OS X',
+    platform_version: 'Sonoma',
+    product: null,
+    session_id: undefined
+  }
+}
+[35msilly[39m: [2025-04-09T18:12:16.671Z][ OBSERVABILITY ] Processing event - 'CBTSessionCreated' f3a84c85-b016-427a-bce2-03431412f1ec
+[35msilly[39m: [2025-04-09T18:12:16.671Z][ OBSERVABILITY ] Finished :: afterTestHook, PID - 17471, Argument - login
+2025-04-09 21:12:16 - [34mdebug[39m: Error in browserstack js executor  page.evaluate: Target page, context or browser has been closed
+[34mdebug[39m: [2025-04-09T18:12:16.673Z][ OBSERVABILITY ] Finished :: Executing After Test Hook, PID - 17471, Test Title - login, Test File - /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/tests/formula1-test.spec.ts
+[34mdebug[39m: [2025-04-09T18:12:16.673Z][ OBSERVABILITY ] Test Hook ended, PID 17471
+[35msilly[39m: [2025-04-09T18:12:16.814Z][ OBSERVABILITY ] Started :: afterWorkerHook, PID - 17471, Argument - 0
+[35msilly[39m: [2025-04-09T18:12:16.814Z][ OBSERVABILITY ] Finished :: afterWorkerHook, PID - 17471, Argument - 0
+[35msilly[39m: [2025-04-09T18:12:18.225Z][ OBSERVABILITY ] Processing events. Queue Length - 2
+[34mdebug[39m: [2025-04-09T18:12:18.226Z][ OBSERVABILITY ] Processing batch events for Interval-Queue. Request Size - 1591 bytes. Events are 'LogCreated':undefined,'CBTSessionCreated':f3a84c85-b016-427a-bce2-03431412f1ec
+[34mdebug[39m: [2025-04-09T18:12:18.499Z][ OBSERVABILITY ] Interval-Queue event successful for events 'LogCreated':undefined,'CBTSessionCreated':f3a84c85-b016-427a-bce2-03431412f1ec -- {"success":true}
+[35msilly[39m: [2025-04-09T18:12:18.500Z][ OBSERVABILITY ] Remaining Queue Length - 0
+[34mdebug[39m: [2025-04-09T18:12:18.538Z][ OBSERVABILITY ] Finished :: Exiting Playwright worker, PID - 17471, WorkerIndex - 0
+[35msilly[39m: [2025-04-09T18:12:18.544Z][ OBSERVABILITY ] Test Finished with unique id chromium-0d06c39b93f6c2963d23-e9ebda90fb1eb1d1eeba
+[35msilly[39m: [2025-04-09T18:12:18.545Z][ OBSERVABILITY ] Processing event - 'LogCreated' undefined
+2025-04-09 21:12:18 - [34mdebug[39m: Searching for key: path
+[35msilly[39m: [2025-04-09T18:12:18.546Z][ OBSERVABILITY ] Processing event - 'TestRunFinished' f3a84c85-b016-427a-bce2-03431412f1ec
+[34mdebug[39m: [2025-04-09T18:12:18.546Z][ OBSERVABILITY ] Starting sending trace zip for test: f3a84c85-b016-427a-bce2-03431412f1ec
+2025-04-09 21:12:18 - [34mdebug[39m: Checking if trace is enabled for test: f3a84c85-b016-427a-bce2-03431412f1ec
+2025-04-09 21:12:18 - [34mdebug[39m: Searching for key: path
+[35msilly[39m: [2025-04-09T18:12:19.029Z][ OBSERVABILITY ] Processing events. Queue Length - 2
+[34mdebug[39m: [2025-04-09T18:12:19.030Z][ OBSERVABILITY ] Processing batch events for Interval-Queue. Request Size - 5091 bytes. Events are 'LogCreated':undefined,'TestRunFinished':f3a84c85-b016-427a-bce2-03431412f1ec
+[34mdebug[39m: [2025-04-09T18:12:19.191Z][ OBSERVABILITY ] Interval-Queue event successful for events 'LogCreated':undefined,'TestRunFinished':f3a84c85-b016-427a-bce2-03431412f1ec -- {"success":true}
+[35msilly[39m: [2025-04-09T18:12:19.192Z][ OBSERVABILITY ] Remaining Queue Length - 0
+2025-04-09 21:18:20 - [32minfo[39m: Running SDK with args /Users/anton_savchenko/.nvm/versions/node/v22.2.0/bin/node /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/node_modules/.bin/browserstack-node-sdk playwright test
+2025-04-09 21:18:20 - [32minfo[39m: Reading configs from /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/browserstack.yml
+2025-04-09 21:18:20 - [32minfo[39m: SDK run started with id: dffb9e31-4f06-476a-a849-2801c98e7fbb
+2025-04-09 21:18:20 - [34mdebug[39m: requireModuleV3 :: module - @playwright/test/package.json, package - @playwright/test
+2025-04-09 21:18:20 - [34mdebug[39m: Resolved from resolveModuleV3 :: Path - /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/node_modules/@playwright/test/package.json
+2025-04-09 21:18:20 - [34mdebug[39m: requireModuleV3 :: module - selenium-webdriver/package.json, package - selenium-webdriver
+2025-04-09 21:18:20 - [34mdebug[39m: Unable to resolve module with requireModuleV3 with error: Error: Cannot find module 'selenium-webdriver'
+Require stack:
+- /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/node_modules/browserstack-node-sdk/src/helpers/helper.js
+- /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/node_modules/browserstack-node-sdk/src/bin/runner.js
+2025-04-09 21:18:20 - [34mdebug[39m: requireModuleV2 :: module - selenium-webdriver/package.json, package - selenium-webdriver
+2025-04-09 21:18:20 - [34mdebug[39m: Getting selenium-webdriver/package.json from /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21
+2025-04-09 21:18:20 - [34mdebug[39m: selenium-webdriver/package.json doesn't exist at /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21
+2025-04-09 21:18:20 - [34mdebug[39m: Getting selenium-webdriver/package.json from path /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21
+2025-04-09 21:18:20 - [34mdebug[39m: Getting selenium-webdriver/package.json from null
+2025-04-09 21:18:20 - [34mdebug[39m: Error while loading package. Error: selenium-webdriver/package.json doesn't exist.
+2025-04-09 21:18:20 - [34mdebug[39m: requireModuleV3 :: module - playwright/lib/transform/transform.js, package - playwright
+2025-04-09 21:18:20 - [34mdebug[39m: Resolved from resolveModuleV3 :: Path - /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/node_modules/playwright/lib/transform/transform.js
+2025-04-09 21:18:20 - [34mdebug[39m: Firing SDK event for funnel data: {"userName":"[REDACTED]","accessKey":"[REDACTED]","event_type":"SDKTestAttempted","detectedFramework":"Playwright","optimalHubUrl":[],"event_properties":{"testhub_uuid":"","sdkRunId":"dffb9e31-4f06-476a-a849-2801c98e7fbb","product_map":{"observability":true,"accessibility":false,"percy":false,"automate":false,"app_automate":false,"central_scanner":false,"lcnc":false},"productMap":{"observability":true,"accessibility":false,"percy":false,"automate":false,"app_automate":false,"central_scanner":false,"lcnc":false},"language_framework":"unknown","referrer":"Playwright-nodeagent/1.34.51","frameworkVersion":"1.51.1","automationFramework":"selenium","automationFrameworkVersion":null,"language":"nodejs","languageVersion":"v22.2.0","product":["observability"],"buildName":"browserstack build","buildIdentifier":"#2","os":"Darwin","hostname":"MacBookAirAnton.local","playwrightVersion":{}}}
+2025-04-09 21:18:21 - [34mdebug[39m: Response: {"hubs":["hub-euw.browserstack.com","hub-use.browserstack.com","hub-aps.browserstack.com"]}
+2025-04-09 21:18:21 - [34mdebug[39m: NEAREST HUBS: ["hub-euw.browserstack.com","hub-use.browserstack.com","hub-aps.browserstack.com"]
+2025-04-09 21:18:21 - [34mdebug[39m: Execution time for https://hub-euw.browserstack.com is: 285ms
+2025-04-09 21:18:21 - [34mdebug[39m: API Event SDKTestAttempted response - {"data":{"message":"SDK Event recorded successfully"},"body":"{\"message\":\"SDK Event recorded successfully\"}","statusCode":200}
+2025-04-09 21:18:21 - [34mdebug[39m: Execution time for https://hub-use.browserstack.com is: 709ms
+2025-04-09 21:18:22 - [34mdebug[39m: Execution time for https://hub-aps.browserstack.com is: 862ms
+2025-04-09 21:18:22 - [34mdebug[39m: HUB URL SET TO - https://hub-euw.browserstack.com
+2025-04-09 21:18:22 - [34mdebug[39m: requireModuleV3 :: module - playwright/lib/common/configLoader.js, package - playwright
+2025-04-09 21:18:22 - [34mdebug[39m: Resolved from resolveModuleV3 :: Path - /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/node_modules/playwright/lib/common/configLoader.js
+2025-04-09 21:18:22 - [34mdebug[39m: [OBSERVABILITY] Build Created Successfully with hashed id: swcqjufboufy4qup11fvnl3ofo2sxpapdej1ctq1
+2025-04-09 21:18:22 - [34mdebug[39m: BROWSERSTACK_TESTHUB_UUID: swcqjufboufy4qup11fvnl3ofo2sxpapdej1ctq1
+2025-04-09 21:18:22 - [32minfo[39m: Testhub started with id: swcqjufboufy4qup11fvnl3ofo2sxpapdej1ctq1
+2025-04-09 21:18:22 - [34mdebug[39m: Updated config file name to - playwright-browserstack-sdk.config.ts
+2025-04-09 21:18:24 - [34mdebug[39m: requireModuleV3 :: module - @playwright/test/package.json, package - @playwright/test
+2025-04-09 21:18:24 - [34mdebug[39m: Resolved from resolveModuleV3 :: Path - /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/node_modules/@playwright/test/package.json
+2025-04-09 21:18:24 - [34mdebug[39m: requireModuleV3 :: module - playwright/lib/transform/transform.js, package - playwright
+2025-04-09 21:18:24 - [34mdebug[39m: Resolved from resolveModuleV3 :: Path - /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/node_modules/playwright/lib/transform/transform.js
+[34mdebug[39m: [2025-04-09T18:18:24.636Z][ OBSERVABILITY ] Call to child fork with args /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/node_modules/playwright/lib/common/process.js
+[34mdebug[39m: [2025-04-09T18:18:24.639Z][ OBSERVABILITY ] Call to child fork with args /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/node_modules/playwright/lib/common/process.js
+2025-04-09 21:18:25 - [34mdebug[39m: requireModuleV3 :: module - @playwright/test/package.json, package - @playwright/test
+2025-04-09 21:18:25 - [34mdebug[39m: requireModuleV3 :: module - @playwright/test/package.json, package - @playwright/test
+2025-04-09 21:18:25 - [34mdebug[39m: Resolved from resolveModuleV3 :: Path - /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/node_modules/@playwright/test/package.json
+2025-04-09 21:18:25 - [34mdebug[39m: requireModuleV3 :: module - playwright/lib/common/process.js, package - playwright
+2025-04-09 21:18:25 - [34mdebug[39m: Resolved from resolveModuleV3 :: Path - /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/node_modules/playwright/lib/common/process.js
+2025-04-09 21:18:25 - [34mdebug[39m: requireModuleV3 :: module - @playwright/test/index.js, package - @playwright/test
+2025-04-09 21:18:25 - [34mdebug[39m: Resolved from resolveModuleV3 :: Path - /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/node_modules/@playwright/test/index.js
+2025-04-09 21:18:25 - [34mdebug[39m: requireModuleV3 :: module - @playwright/test/node_modules/playwright-core, package - @playwright/test
+2025-04-09 21:18:25 - [34mdebug[39m: requireModuleV2 :: module - @playwright/test/node_modules/playwright-core, package - @playwright/test
+2025-04-09 21:18:25 - [34mdebug[39m: Getting @playwright/test/node_modules/playwright-core from /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21
+2025-04-09 21:18:25 - [34mdebug[39m: @playwright/test/node_modules/playwright-core doesn't exist at /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21
+2025-04-09 21:18:25 - [34mdebug[39m: Getting @playwright/test/node_modules/playwright-core from path /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21
+2025-04-09 21:18:25 - [34mdebug[39m: Getting @playwright/test/node_modules/playwright-core from null
+2025-04-09 21:18:25 - [34mdebug[39m: requireModuleV2 :: module - playwright-core, package - null
+2025-04-09 21:18:25 - [34mdebug[39m: Resolved path for playwright-core is /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/node_modules/playwright-core
+2025-04-09 21:18:25 - [34mdebug[39m: requireModuleV2 :: module - /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/node_modules/playwright-core/lib/client/connection.js, package - null
+2025-04-09 21:18:25 - [34mdebug[39m: Resolved from resolveModuleV3 :: Path - /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/node_modules/@playwright/test/package.json
+2025-04-09 21:18:25 - [34mdebug[39m: requireModuleV3 :: module - playwright/lib/common/process.js, package - playwright
+2025-04-09 21:18:25 - [34mdebug[39m: Resolved from resolveModuleV3 :: Path - /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/node_modules/playwright/lib/common/process.js
+2025-04-09 21:18:25 - [34mdebug[39m: requireModuleV3 :: module - @playwright/test/index.js, package - @playwright/test
+2025-04-09 21:18:25 - [34mdebug[39m: Resolved from resolveModuleV3 :: Path - /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/node_modules/@playwright/test/index.js
+2025-04-09 21:18:25 - [34mdebug[39m: requireModuleV3 :: module - @playwright/test/node_modules/playwright-core, package - @playwright/test
+2025-04-09 21:18:25 - [34mdebug[39m: requireModuleV2 :: module - @playwright/test/node_modules/playwright-core, package - @playwright/test
+2025-04-09 21:18:25 - [34mdebug[39m: Getting @playwright/test/node_modules/playwright-core from /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21
+2025-04-09 21:18:25 - [34mdebug[39m: @playwright/test/node_modules/playwright-core doesn't exist at /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21
+2025-04-09 21:18:25 - [34mdebug[39m: Getting @playwright/test/node_modules/playwright-core from path /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21
+2025-04-09 21:18:25 - [34mdebug[39m: Getting @playwright/test/node_modules/playwright-core from null
+2025-04-09 21:18:25 - [34mdebug[39m: requireModuleV2 :: module - playwright-core, package - null
+2025-04-09 21:18:25 - [34mdebug[39m: Resolved path for playwright-core is /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/node_modules/playwright-core
+2025-04-09 21:18:25 - [34mdebug[39m: requireModuleV2 :: module - /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/node_modules/playwright-core/lib/client/connection.js, package - null
+2025-04-09 21:18:26 - [34mdebug[39m: requireModuleV3 :: module - playwright/lib/transform/transform.js, package - playwright
+2025-04-09 21:18:26 - [34mdebug[39m: Resolved from resolveModuleV3 :: Path - /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/node_modules/playwright/lib/transform/transform.js
+2025-04-09 21:18:26 - [34mdebug[39m: requireModuleV3 :: module - playwright/lib/transform/transform.js, package - playwright
+2025-04-09 21:18:26 - [34mdebug[39m: Resolved from resolveModuleV3 :: Path - /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/node_modules/playwright/lib/transform/transform.js
+[35msilly[39m: [2025-04-09T18:18:26.095Z][ OBSERVABILITY ] Started :: beforeWorkerHook, PID - 17793, Argument - 1
+[35msilly[39m: [2025-04-09T18:18:26.095Z][ OBSERVABILITY ] Started :: beforeWorkerHook, PID - 17792, Argument - 0
+[35msilly[39m: [2025-04-09T18:18:26.097Z][ OBSERVABILITY ] Test Started with unique id chromium-0d06c39b93f6c2963d23-c274be13e148bd5eebab
+2025-04-09 21:18:26 - [34mdebug[39m: Searching for key: path
+[35msilly[39m: [2025-04-09T18:18:26.099Z][ OBSERVABILITY ] Processing event - 'TestRunStarted' 352f296d-5b38-4719-a2be-ce6a7d7c3f99
+[35msilly[39m: [2025-04-09T18:18:26.100Z][ OBSERVABILITY ] Test Started with unique id chromium-0d06c39b93f6c2963d23-e9ebda90fb1eb1d1eeba
+2025-04-09 21:18:26 - [34mdebug[39m: Searching for key: path
+[35msilly[39m: [2025-04-09T18:18:26.101Z][ OBSERVABILITY ] Processing event - 'TestRunStarted' 26581a4f-8aba-4253-b1cb-6436f3a18fea
+2025-04-09 21:18:26 - [34mdebug[39m: requireModuleV3 :: module - @playwright/test/node_modules/playwright-core, package - @playwright/test
+2025-04-09 21:18:26 - [34mdebug[39m: requireModuleV2 :: module - @playwright/test/node_modules/playwright-core, package - @playwright/test
+2025-04-09 21:18:26 - [34mdebug[39m: Getting @playwright/test/node_modules/playwright-core from /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21
+2025-04-09 21:18:26 - [34mdebug[39m: @playwright/test/node_modules/playwright-core doesn't exist at /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21
+2025-04-09 21:18:26 - [34mdebug[39m: Getting @playwright/test/node_modules/playwright-core from path /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21
+2025-04-09 21:18:26 - [34mdebug[39m: Getting @playwright/test/node_modules/playwright-core from null
+2025-04-09 21:18:26 - [34mdebug[39m: requireModuleV2 :: module - playwright-core, package - null
+2025-04-09 21:18:26 - [34mdebug[39m: Resolved path for playwright-core is /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/node_modules/playwright-core
+2025-04-09 21:18:26 - [34mdebug[39m: requireModuleV2 :: module - /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/node_modules/playwright-core/lib/client/browserType.js, package - null
+2025-04-09 21:18:26 - [34mdebug[39m: requireModuleV3 :: module - @playwright/test/node_modules/playwright-core, package - @playwright/test
+2025-04-09 21:18:26 - [34mdebug[39m: requireModuleV2 :: module - @playwright/test/node_modules/playwright-core, package - @playwright/test
+2025-04-09 21:18:26 - [34mdebug[39m: Getting @playwright/test/node_modules/playwright-core from /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21
+2025-04-09 21:18:26 - [34mdebug[39m: @playwright/test/node_modules/playwright-core doesn't exist at /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21
+2025-04-09 21:18:26 - [34mdebug[39m: Getting @playwright/test/node_modules/playwright-core from path /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21
+2025-04-09 21:18:26 - [34mdebug[39m: Getting @playwright/test/node_modules/playwright-core from null
+2025-04-09 21:18:26 - [34mdebug[39m: requireModuleV2 :: module - playwright-core, package - null
+2025-04-09 21:18:26 - [34mdebug[39m: Resolved path for playwright-core is /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/node_modules/playwright-core
+2025-04-09 21:18:26 - [34mdebug[39m: requireModuleV2 :: module - /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/node_modules/playwright-core/lib/client/browserContext.js, package - null
+2025-04-09 21:18:26 - [34mdebug[39m: requireModuleV3 :: module - @playwright/test/node_modules/playwright-core, package - @playwright/test
+2025-04-09 21:18:26 - [34mdebug[39m: requireModuleV2 :: module - @playwright/test/node_modules/playwright-core, package - @playwright/test
+2025-04-09 21:18:26 - [34mdebug[39m: Getting @playwright/test/node_modules/playwright-core from /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21
+2025-04-09 21:18:26 - [34mdebug[39m: @playwright/test/node_modules/playwright-core doesn't exist at /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21
+2025-04-09 21:18:26 - [34mdebug[39m: Getting @playwright/test/node_modules/playwright-core from path /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21
+2025-04-09 21:18:26 - [34mdebug[39m: Getting @playwright/test/node_modules/playwright-core from null
+2025-04-09 21:18:26 - [34mdebug[39m: requireModuleV2 :: module - playwright-core, package - null
+2025-04-09 21:18:26 - [34mdebug[39m: Resolved path for playwright-core is /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/node_modules/playwright-core
+2025-04-09 21:18:26 - [34mdebug[39m: requireModuleV2 :: module - /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/node_modules/playwright-core/lib/client/android.js, package - null
+2025-04-09 21:18:26 - [34mdebug[39m: requireModuleV3 :: module - @playwright/test/node_modules/playwright-core, package - @playwright/test
+2025-04-09 21:18:26 - [34mdebug[39m: requireModuleV2 :: module - @playwright/test/node_modules/playwright-core, package - @playwright/test
+2025-04-09 21:18:26 - [34mdebug[39m: Getting @playwright/test/node_modules/playwright-core from /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21
+2025-04-09 21:18:26 - [34mdebug[39m: @playwright/test/node_modules/playwright-core doesn't exist at /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21
+2025-04-09 21:18:26 - [34mdebug[39m: Getting @playwright/test/node_modules/playwright-core from path /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21
+2025-04-09 21:18:26 - [34mdebug[39m: Getting @playwright/test/node_modules/playwright-core from null
+2025-04-09 21:18:26 - [34mdebug[39m: requireModuleV2 :: module - playwright-core, package - null
+2025-04-09 21:18:26 - [34mdebug[39m: Resolved path for playwright-core is /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/node_modules/playwright-core
+2025-04-09 21:18:26 - [34mdebug[39m: requireModuleV2 :: module - /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/node_modules/playwright-core/lib/client/page.js, package - null
+[35msilly[39m: [2025-04-09T18:18:26.100Z][ OBSERVABILITY ] Finished :: beforeWorkerHook, PID - 17793, Argument - 1
+[34mdebug[39m: [2025-04-09T18:18:26.100Z][ OBSERVABILITY ] Worker Hook started, PID 17793
+[34mdebug[39m: [2025-04-09T18:18:26.106Z][ OBSERVABILITY ] Test Hook started, PID 17793
+[35msilly[39m: [2025-04-09T18:18:26.106Z][ OBSERVABILITY ] Started :: beforeTestHook, PID - 17793, Argument - Add ticket to cart
+[35msilly[39m: [2025-04-09T18:18:26.107Z][ OBSERVABILITY ] Sending session details at beforeTestHook
+[35msilly[39m: [2025-04-09T18:18:26.107Z][ OBSERVABILITY ] Finished :: beforeTestHook, PID - 17793, Argument - Add ticket to cart
+2025-04-09 21:18:26 - [34mdebug[39m: Error in connecting for android TypeError: Cannot read properties of null (reading 'deviceName')
+2025-04-09 21:18:26 - [34mdebug[39m: requireModuleV3 :: module - @playwright/test/node_modules/playwright-core, package - @playwright/test
+2025-04-09 21:18:26 - [34mdebug[39m: requireModuleV2 :: module - @playwright/test/node_modules/playwright-core, package - @playwright/test
+2025-04-09 21:18:26 - [34mdebug[39m: Getting @playwright/test/node_modules/playwright-core from /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21
+2025-04-09 21:18:26 - [34mdebug[39m: @playwright/test/node_modules/playwright-core doesn't exist at /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21
+2025-04-09 21:18:26 - [34mdebug[39m: Getting @playwright/test/node_modules/playwright-core from path /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21
+2025-04-09 21:18:26 - [34mdebug[39m: Getting @playwright/test/node_modules/playwright-core from null
+2025-04-09 21:18:26 - [34mdebug[39m: requireModuleV2 :: module - playwright-core, package - null
+2025-04-09 21:18:26 - [34mdebug[39m: Resolved path for playwright-core is /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/node_modules/playwright-core
+2025-04-09 21:18:26 - [34mdebug[39m: requireModuleV2 :: module - /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/node_modules/playwright-core/lib/client/browserType.js, package - null
+2025-04-09 21:18:26 - [34mdebug[39m: requireModuleV3 :: module - @playwright/test/node_modules/playwright-core, package - @playwright/test
+2025-04-09 21:18:26 - [34mdebug[39m: requireModuleV2 :: module - @playwright/test/node_modules/playwright-core, package - @playwright/test
+2025-04-09 21:18:26 - [34mdebug[39m: Getting @playwright/test/node_modules/playwright-core from /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21
+2025-04-09 21:18:26 - [34mdebug[39m: @playwright/test/node_modules/playwright-core doesn't exist at /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21
+2025-04-09 21:18:26 - [34mdebug[39m: Getting @playwright/test/node_modules/playwright-core from path /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21
+2025-04-09 21:18:26 - [34mdebug[39m: Getting @playwright/test/node_modules/playwright-core from null
+2025-04-09 21:18:26 - [34mdebug[39m: requireModuleV2 :: module - playwright-core, package - null
+2025-04-09 21:18:26 - [34mdebug[39m: Resolved path for playwright-core is /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/node_modules/playwright-core
+2025-04-09 21:18:26 - [34mdebug[39m: requireModuleV2 :: module - /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/node_modules/playwright-core/lib/client/browserContext.js, package - null
+2025-04-09 21:18:26 - [34mdebug[39m: requireModuleV3 :: module - @playwright/test/node_modules/playwright-core, package - @playwright/test
+2025-04-09 21:18:26 - [34mdebug[39m: requireModuleV2 :: module - @playwright/test/node_modules/playwright-core, package - @playwright/test
+2025-04-09 21:18:26 - [34mdebug[39m: Getting @playwright/test/node_modules/playwright-core from /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21
+2025-04-09 21:18:26 - [34mdebug[39m: @playwright/test/node_modules/playwright-core doesn't exist at /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21
+2025-04-09 21:18:26 - [34mdebug[39m: Getting @playwright/test/node_modules/playwright-core from path /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21
+2025-04-09 21:18:26 - [34mdebug[39m: Getting @playwright/test/node_modules/playwright-core from null
+2025-04-09 21:18:26 - [34mdebug[39m: requireModuleV2 :: module - playwright-core, package - null
+2025-04-09 21:18:26 - [34mdebug[39m: Resolved path for playwright-core is /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/node_modules/playwright-core
+2025-04-09 21:18:26 - [34mdebug[39m: requireModuleV2 :: module - /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/node_modules/playwright-core/lib/client/android.js, package - null
+2025-04-09 21:18:26 - [34mdebug[39m: requireModuleV3 :: module - @playwright/test/node_modules/playwright-core, package - @playwright/test
+2025-04-09 21:18:26 - [34mdebug[39m: requireModuleV2 :: module - @playwright/test/node_modules/playwright-core, package - @playwright/test
+2025-04-09 21:18:26 - [34mdebug[39m: Getting @playwright/test/node_modules/playwright-core from /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21
+2025-04-09 21:18:26 - [34mdebug[39m: @playwright/test/node_modules/playwright-core doesn't exist at /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21
+2025-04-09 21:18:26 - [34mdebug[39m: Getting @playwright/test/node_modules/playwright-core from path /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21
+2025-04-09 21:18:26 - [34mdebug[39m: Getting @playwright/test/node_modules/playwright-core from null
+2025-04-09 21:18:26 - [34mdebug[39m: requireModuleV2 :: module - playwright-core, package - null
+2025-04-09 21:18:26 - [34mdebug[39m: Resolved path for playwright-core is /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/node_modules/playwright-core
+2025-04-09 21:18:26 - [34mdebug[39m: requireModuleV2 :: module - /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/node_modules/playwright-core/lib/client/page.js, package - null
+[35msilly[39m: [2025-04-09T18:18:26.101Z][ OBSERVABILITY ] Finished :: beforeWorkerHook, PID - 17792, Argument - 0
+[34mdebug[39m: [2025-04-09T18:18:26.101Z][ OBSERVABILITY ] Worker Hook started, PID 17792
+[34mdebug[39m: [2025-04-09T18:18:26.106Z][ OBSERVABILITY ] Test Hook started, PID 17792
+[35msilly[39m: [2025-04-09T18:18:26.107Z][ OBSERVABILITY ] Started :: beforeTestHook, PID - 17792, Argument - login
+[35msilly[39m: [2025-04-09T18:18:26.107Z][ OBSERVABILITY ] Sending session details at beforeTestHook
+[35msilly[39m: [2025-04-09T18:18:26.107Z][ OBSERVABILITY ] Finished :: beforeTestHook, PID - 17792, Argument - login
+2025-04-09 21:18:26 - [34mdebug[39m: Error in connecting for android TypeError: Cannot read properties of null (reading 'deviceName')
+2025-04-09 21:18:27 - [34mdebug[39m: Device Model is not available
+2025-04-09 21:18:27 - [34mdebug[39m: Device Model is not available
+[35msilly[39m: [2025-04-09T18:18:27.112Z][ OBSERVABILITY ] Sending session details at launch
+2025-04-09 21:18:27 - [34mdebug[39m: Device Model is not available
+[35msilly[39m: [2025-04-09T18:18:27.129Z][ OBSERVABILITY ] Sending session details at browser fixture
+[34mdebug[39m: [2025-04-09T18:18:27.131Z][ OBSERVABILITY ] Sending session details for chromium-0d06c39b93f6c2963d23-e9ebda90fb1eb1d1eeba-0, {
+  local_grid: {
+    browser: 'playwright-chromium',
+    browser_version: '134.0.6998.35',
+    capabilities: {},
+    platform: 'OS X',
+    platform_version: 'Sonoma',
+    product: null,
+    session_id: undefined
+  }
+}
+[35msilly[39m: [2025-04-09T18:18:27.132Z][ OBSERVABILITY ] Processing event - 'CBTSessionCreated' 26581a4f-8aba-4253-b1cb-6436f3a18fea
+[35msilly[39m: [2025-04-09T18:18:27.129Z][ OBSERVABILITY ] Sending session details at launch
+2025-04-09 21:18:27 - [34mdebug[39m: Device Model is not available
+[35msilly[39m: [2025-04-09T18:18:27.143Z][ OBSERVABILITY ] Sending session details at browser fixture
+[34mdebug[39m: [2025-04-09T18:18:27.145Z][ OBSERVABILITY ] Sending session details for chromium-0d06c39b93f6c2963d23-c274be13e148bd5eebab-0, {
+  local_grid: {
+    browser: 'playwright-chromium',
+    browser_version: '134.0.6998.35',
+    capabilities: {},
+    platform: 'OS X',
+    platform_version: 'Sonoma',
+    product: null,
+    session_id: undefined
+  }
+}
+[35msilly[39m: [2025-04-09T18:18:27.145Z][ OBSERVABILITY ] Processing event - 'CBTSessionCreated' 352f296d-5b38-4719-a2be-ce6a7d7c3f99
+[35msilly[39m: [2025-04-09T18:18:28.100Z][ OBSERVABILITY ] Processing events. Queue Length - 2
+[34mdebug[39m: [2025-04-09T18:18:28.100Z][ OBSERVABILITY ] Processing batch events for Interval-Queue. Request Size - 2263 bytes. Events are 'TestRunStarted':352f296d-5b38-4719-a2be-ce6a7d7c3f99,'TestRunStarted':26581a4f-8aba-4253-b1cb-6436f3a18fea
+[34mdebug[39m: [2025-04-09T18:18:28.827Z][ OBSERVABILITY ] Interval-Queue event successful for events 'TestRunStarted':352f296d-5b38-4719-a2be-ce6a7d7c3f99,'TestRunStarted':26581a4f-8aba-4253-b1cb-6436f3a18fea -- {"success":true}
+[35msilly[39m: [2025-04-09T18:18:28.827Z][ OBSERVABILITY ] Remaining Queue Length - 0
+[35msilly[39m: [2025-04-09T18:18:29.132Z][ OBSERVABILITY ] Processing events. Queue Length - 1
+[35msilly[39m: [2025-04-09T18:18:29.147Z][ OBSERVABILITY ] Processing events. Queue Length - 1
+[34mdebug[39m: [2025-04-09T18:18:29.133Z][ OBSERVABILITY ] Processing batch events for Interval-Queue. Request Size - 272 bytes. Events are 'CBTSessionCreated':26581a4f-8aba-4253-b1cb-6436f3a18fea
+[34mdebug[39m: [2025-04-09T18:18:29.148Z][ OBSERVABILITY ] Processing batch events for Interval-Queue. Request Size - 272 bytes. Events are 'CBTSessionCreated':352f296d-5b38-4719-a2be-ce6a7d7c3f99
+[35msilly[39m: [2025-04-09T18:18:29.628Z][ OBSERVABILITY ] Processing event - 'LogCreated' undefined
+[35msilly[39m: [2025-04-09T18:18:29.628Z][ OBSERVABILITY ] Processing event - 'LogCreated' undefined
+[34mdebug[39m: [2025-04-09T18:18:29.634Z][ OBSERVABILITY ] Interval-Queue event successful for events 'CBTSessionCreated':352f296d-5b38-4719-a2be-ce6a7d7c3f99 -- {"success":true}
+[35msilly[39m: [2025-04-09T18:18:29.634Z][ OBSERVABILITY ] Remaining Queue Length - 1
+[34mdebug[39m: [2025-04-09T18:18:29.634Z][ OBSERVABILITY ] Interval-Queue event successful for events 'CBTSessionCreated':26581a4f-8aba-4253-b1cb-6436f3a18fea -- {"success":true}
+[35msilly[39m: [2025-04-09T18:18:29.635Z][ OBSERVABILITY ] Remaining Queue Length - 1
+[35msilly[39m: [2025-04-09T18:18:31.134Z][ OBSERVABILITY ] Processing events. Queue Length - 1
+[34mdebug[39m: [2025-04-09T18:18:31.135Z][ OBSERVABILITY ] Processing batch events for Interval-Queue. Request Size - 1319 bytes. Events are 'LogCreated':undefined
+[35msilly[39m: [2025-04-09T18:18:31.146Z][ OBSERVABILITY ] Processing events. Queue Length - 1
+[34mdebug[39m: [2025-04-09T18:18:31.147Z][ OBSERVABILITY ] Processing batch events for Interval-Queue. Request Size - 1319 bytes. Events are 'LogCreated':undefined
+[35msilly[39m: [2025-04-09T18:18:31.358Z][ OBSERVABILITY ] Processing event - 'LogCreated' undefined
+[35msilly[39m: [2025-04-09T18:18:31.358Z][ OBSERVABILITY ] Processing event - 'LogCreated' undefined
+[34mdebug[39m: [2025-04-09T18:18:31.359Z][ OBSERVABILITY ] Interval-Queue event successful for events 'LogCreated':undefined -- {"success":true}
+[35msilly[39m: [2025-04-09T18:18:31.359Z][ OBSERVABILITY ] Remaining Queue Length - 1
+[34mdebug[39m: [2025-04-09T18:18:31.359Z][ OBSERVABILITY ] Interval-Queue event successful for events 'LogCreated':undefined -- {"success":true}
+[35msilly[39m: [2025-04-09T18:18:31.359Z][ OBSERVABILITY ] Remaining Queue Length - 1
+[35msilly[39m: [2025-04-09T18:18:33.134Z][ OBSERVABILITY ] Processing events. Queue Length - 1
+[34mdebug[39m: [2025-04-09T18:18:33.136Z][ OBSERVABILITY ] Processing batch events for Interval-Queue. Request Size - 1320 bytes. Events are 'LogCreated':undefined
+[35msilly[39m: [2025-04-09T18:18:33.148Z][ OBSERVABILITY ] Processing events. Queue Length - 1
+[34mdebug[39m: [2025-04-09T18:18:33.148Z][ OBSERVABILITY ] Processing batch events for Interval-Queue. Request Size - 1320 bytes. Events are 'LogCreated':undefined
+[35msilly[39m: [2025-04-09T18:18:33.440Z][ OBSERVABILITY ] Processing event - 'LogCreated' undefined
+[34mdebug[39m: [2025-04-09T18:18:33.441Z][ OBSERVABILITY ] Interval-Queue event successful for events 'LogCreated':undefined -- {"success":true}
+[35msilly[39m: [2025-04-09T18:18:33.441Z][ OBSERVABILITY ] Remaining Queue Length - 1
+[35msilly[39m: [2025-04-09T18:18:33.442Z][ OBSERVABILITY ] Processing event - 'LogCreated' undefined
+[34mdebug[39m: [2025-04-09T18:18:33.443Z][ OBSERVABILITY ] Interval-Queue event successful for events 'LogCreated':undefined -- {"success":true}
+[35msilly[39m: [2025-04-09T18:18:33.443Z][ OBSERVABILITY ] Remaining Queue Length - 1
+[35msilly[39m: [2025-04-09T18:18:35.134Z][ OBSERVABILITY ] Processing events. Queue Length - 1
+[34mdebug[39m: [2025-04-09T18:18:35.135Z][ OBSERVABILITY ] Processing batch events for Interval-Queue. Request Size - 1320 bytes. Events are 'LogCreated':undefined
+[35msilly[39m: [2025-04-09T18:18:35.148Z][ OBSERVABILITY ] Processing events. Queue Length - 1
+[34mdebug[39m: [2025-04-09T18:18:35.149Z][ OBSERVABILITY ] Processing batch events for Interval-Queue. Request Size - 1320 bytes. Events are 'LogCreated':undefined
+[35msilly[39m: [2025-04-09T18:18:35.294Z][ OBSERVABILITY ] Processing event - 'LogCreated' undefined
+[34mdebug[39m: [2025-04-09T18:18:35.296Z][ OBSERVABILITY ] Interval-Queue event successful for events 'LogCreated':undefined -- {"success":true}
+[35msilly[39m: [2025-04-09T18:18:35.296Z][ OBSERVABILITY ] Remaining Queue Length - 1
+[35msilly[39m: [2025-04-09T18:18:35.301Z][ OBSERVABILITY ] Processing event - 'LogCreated' undefined
+[34mdebug[39m: [2025-04-09T18:18:35.302Z][ OBSERVABILITY ] Interval-Queue event successful for events 'LogCreated':undefined -- {"success":true}
+[35msilly[39m: [2025-04-09T18:18:35.303Z][ OBSERVABILITY ] Remaining Queue Length - 1
+[35msilly[39m: [2025-04-09T18:18:37.135Z][ OBSERVABILITY ] Processing events. Queue Length - 1
+[34mdebug[39m: [2025-04-09T18:18:37.136Z][ OBSERVABILITY ] Processing batch events for Interval-Queue. Request Size - 1320 bytes. Events are 'LogCreated':undefined
+[35msilly[39m: [2025-04-09T18:18:37.149Z][ OBSERVABILITY ] Processing events. Queue Length - 1
+[34mdebug[39m: [2025-04-09T18:18:37.150Z][ OBSERVABILITY ] Processing batch events for Interval-Queue. Request Size - 1320 bytes. Events are 'LogCreated':undefined
+[35msilly[39m: [2025-04-09T18:18:37.288Z][ OBSERVABILITY ] Processing event - 'LogCreated' undefined
+[34mdebug[39m: [2025-04-09T18:18:37.292Z][ OBSERVABILITY ] Interval-Queue event successful for events 'LogCreated':undefined -- {"success":true}
+[35msilly[39m: [2025-04-09T18:18:37.293Z][ OBSERVABILITY ] Remaining Queue Length - 1
+[35msilly[39m: [2025-04-09T18:18:37.298Z][ OBSERVABILITY ] Processing event - 'LogCreated' undefined
+[34mdebug[39m: [2025-04-09T18:18:37.300Z][ OBSERVABILITY ] Interval-Queue event successful for events 'LogCreated':undefined -- {"success":true}
+[35msilly[39m: [2025-04-09T18:18:37.300Z][ OBSERVABILITY ] Remaining Queue Length - 1
+[35msilly[39m: [2025-04-09T18:18:39.136Z][ OBSERVABILITY ] Processing events. Queue Length - 1
+[34mdebug[39m: [2025-04-09T18:18:39.137Z][ OBSERVABILITY ] Processing batch events for Interval-Queue. Request Size - 1320 bytes. Events are 'LogCreated':undefined
+[35msilly[39m: [2025-04-09T18:18:39.150Z][ OBSERVABILITY ] Processing events. Queue Length - 1
+[34mdebug[39m: [2025-04-09T18:18:39.150Z][ OBSERVABILITY ] Processing batch events for Interval-Queue. Request Size - 1320 bytes. Events are 'LogCreated':undefined
+[35msilly[39m: [2025-04-09T18:18:39.260Z][ OBSERVABILITY ] Started :: afterTestHook, PID - 17793, Argument - Add ticket to cart
+[34mdebug[39m: [2025-04-09T18:18:39.261Z][ OBSERVABILITY ] Started :: Executing After Test Hook, PID - 17793, Test Title - Add ticket to cart, Test File - /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/tests/formula1-test.spec.ts
+[34mdebug[39m: [2025-04-09T18:18:39.261Z][ OBSERVABILITY ] Sending session details for chromium-0d06c39b93f6c2963d23-c274be13e148bd5eebab-0, {
+  local_grid: {
+    browser: 'playwright-chromium',
+    browser_version: '134.0.6998.35',
+    capabilities: {},
+    platform: 'OS X',
+    platform_version: 'Sonoma',
+    product: null,
+    session_id: undefined
+  }
+}
+[35msilly[39m: [2025-04-09T18:18:39.261Z][ OBSERVABILITY ] Processing event - 'CBTSessionCreated' 352f296d-5b38-4719-a2be-ce6a7d7c3f99
+[35msilly[39m: [2025-04-09T18:18:39.261Z][ OBSERVABILITY ] Finished :: afterTestHook, PID - 17793, Argument - Add ticket to cart
+2025-04-09 21:18:39 - [34mdebug[39m: Error in browserstack js executor  page.evaluate: Target page, context or browser has been closed
+[34mdebug[39m: [2025-04-09T18:18:39.267Z][ OBSERVABILITY ] Finished :: Executing After Test Hook, PID - 17793, Test Title - Add ticket to cart, Test File - /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/tests/formula1-test.spec.ts
+[34mdebug[39m: [2025-04-09T18:18:39.267Z][ OBSERVABILITY ] Test Hook ended, PID 17793
+[35msilly[39m: [2025-04-09T18:18:39.270Z][ OBSERVABILITY ] Test Finished with unique id chromium-0d06c39b93f6c2963d23-c274be13e148bd5eebab
+[35msilly[39m: [2025-04-09T18:18:39.271Z][ OBSERVABILITY ] Processing event - 'LogCreated' undefined
+2025-04-09 21:18:39 - [34mdebug[39m: Searching for key: path
+[35msilly[39m: [2025-04-09T18:18:39.271Z][ OBSERVABILITY ] Processing event - 'TestRunFinished' 352f296d-5b38-4719-a2be-ce6a7d7c3f99
+[34mdebug[39m: [2025-04-09T18:18:39.271Z][ OBSERVABILITY ] Starting sending trace zip for test: 352f296d-5b38-4719-a2be-ce6a7d7c3f99
+2025-04-09 21:18:39 - [34mdebug[39m: Checking if trace is enabled for test: 352f296d-5b38-4719-a2be-ce6a7d7c3f99
+2025-04-09 21:18:39 - [34mdebug[39m: Searching for key: path
+[35msilly[39m: [2025-04-09T18:18:39.291Z][ OBSERVABILITY ] Processing event - 'LogCreated' undefined
+[34mdebug[39m: [2025-04-09T18:18:39.293Z][ OBSERVABILITY ] Interval-Queue event successful for events 'LogCreated':undefined -- {"success":true}
+[35msilly[39m: [2025-04-09T18:18:39.293Z][ OBSERVABILITY ] Remaining Queue Length - 1
+[34mdebug[39m: [2025-04-09T18:18:39.304Z][ OBSERVABILITY ] Interval-Queue event successful for events 'LogCreated':undefined -- {"success":true}
+[35msilly[39m: [2025-04-09T18:18:39.304Z][ OBSERVABILITY ] Remaining Queue Length - 1
+[35msilly[39m: [2025-04-09T18:18:39.555Z][ OBSERVABILITY ] Started :: afterWorkerHook, PID - 17793, Argument - 1
+[35msilly[39m: [2025-04-09T18:18:39.556Z][ OBSERVABILITY ] Finished :: afterWorkerHook, PID - 17793, Argument - 1
+[35msilly[39m: [2025-04-09T18:18:40.110Z][ OBSERVABILITY ] Processing events. Queue Length - 2
+[34mdebug[39m: [2025-04-09T18:18:40.110Z][ OBSERVABILITY ] Processing batch events for Interval-Queue. Request Size - 3338 bytes. Events are 'LogCreated':undefined,'TestRunFinished':352f296d-5b38-4719-a2be-ce6a7d7c3f99
+[34mdebug[39m: [2025-04-09T18:18:40.278Z][ OBSERVABILITY ] Interval-Queue event successful for events 'LogCreated':undefined,'TestRunFinished':352f296d-5b38-4719-a2be-ce6a7d7c3f99 -- {"success":true}
+[35msilly[39m: [2025-04-09T18:18:40.278Z][ OBSERVABILITY ] Remaining Queue Length - 0
+[35msilly[39m: [2025-04-09T18:18:41.137Z][ OBSERVABILITY ] Processing events. Queue Length - 1
+[34mdebug[39m: [2025-04-09T18:18:41.138Z][ OBSERVABILITY ] Processing batch events for Interval-Queue. Request Size - 1320 bytes. Events are 'LogCreated':undefined
+[35msilly[39m: [2025-04-09T18:18:41.151Z][ OBSERVABILITY ] Processing events. Queue Length - 1
+[34mdebug[39m: [2025-04-09T18:18:41.152Z][ OBSERVABILITY ] Processing batch events for Interval-Queue. Request Size - 272 bytes. Events are 'CBTSessionCreated':352f296d-5b38-4719-a2be-ce6a7d7c3f99
+[35msilly[39m: [2025-04-09T18:18:41.296Z][ OBSERVABILITY ] Processing event - 'LogCreated' undefined
+[34mdebug[39m: [2025-04-09T18:18:41.297Z][ OBSERVABILITY ] Interval-Queue event successful for events 'LogCreated':undefined -- {"success":true}
+[35msilly[39m: [2025-04-09T18:18:41.298Z][ OBSERVABILITY ] Remaining Queue Length - 1
+[34mdebug[39m: [2025-04-09T18:18:41.342Z][ OBSERVABILITY ] Interval-Queue event successful for events 'CBTSessionCreated':352f296d-5b38-4719-a2be-ce6a7d7c3f99 -- {"success":true}
+[35msilly[39m: [2025-04-09T18:18:41.342Z][ OBSERVABILITY ] Remaining Queue Length - 0
+[34mdebug[39m: [2025-04-09T18:18:41.374Z][ OBSERVABILITY ] Finished :: Exiting Playwright worker, PID - 17793, WorkerIndex - 1
+[35msilly[39m: [2025-04-09T18:18:43.138Z][ OBSERVABILITY ] Processing events. Queue Length - 1
+[34mdebug[39m: [2025-04-09T18:18:43.140Z][ OBSERVABILITY ] Processing batch events for Interval-Queue. Request Size - 1320 bytes. Events are 'LogCreated':undefined
+[35msilly[39m: [2025-04-09T18:18:43.353Z][ OBSERVABILITY ] Processing event - 'LogCreated' undefined
+[34mdebug[39m: [2025-04-09T18:18:43.354Z][ OBSERVABILITY ] Interval-Queue event successful for events 'LogCreated':undefined -- {"success":true}
+[35msilly[39m: [2025-04-09T18:18:43.354Z][ OBSERVABILITY ] Remaining Queue Length - 1
+[35msilly[39m: [2025-04-09T18:18:45.139Z][ OBSERVABILITY ] Processing events. Queue Length - 1
+[34mdebug[39m: [2025-04-09T18:18:45.140Z][ OBSERVABILITY ] Processing batch events for Interval-Queue. Request Size - 1320 bytes. Events are 'LogCreated':undefined
+[35msilly[39m: [2025-04-09T18:18:45.308Z][ OBSERVABILITY ] Processing event - 'LogCreated' undefined
+[34mdebug[39m: [2025-04-09T18:18:45.325Z][ OBSERVABILITY ] Interval-Queue event successful for events 'LogCreated':undefined -- {"success":true}
+[35msilly[39m: [2025-04-09T18:18:45.325Z][ OBSERVABILITY ] Remaining Queue Length - 1
+[35msilly[39m: [2025-04-09T18:18:47.140Z][ OBSERVABILITY ] Processing events. Queue Length - 1
+[34mdebug[39m: [2025-04-09T18:18:47.141Z][ OBSERVABILITY ] Processing batch events for Interval-Queue. Request Size - 1320 bytes. Events are 'LogCreated':undefined
+[35msilly[39m: [2025-04-09T18:18:47.366Z][ OBSERVABILITY ] Processing event - 'LogCreated' undefined
+[34mdebug[39m: [2025-04-09T18:18:47.368Z][ OBSERVABILITY ] Interval-Queue event successful for events 'LogCreated':undefined -- {"success":true}
+[35msilly[39m: [2025-04-09T18:18:47.368Z][ OBSERVABILITY ] Remaining Queue Length - 1
+[35msilly[39m: [2025-04-09T18:18:49.141Z][ OBSERVABILITY ] Processing events. Queue Length - 1
+[34mdebug[39m: [2025-04-09T18:18:49.142Z][ OBSERVABILITY ] Processing batch events for Interval-Queue. Request Size - 1320 bytes. Events are 'LogCreated':undefined
+[35msilly[39m: [2025-04-09T18:18:49.307Z][ OBSERVABILITY ] Processing event - 'LogCreated' undefined
+[34mdebug[39m: [2025-04-09T18:18:49.309Z][ OBSERVABILITY ] Interval-Queue event successful for events 'LogCreated':undefined -- {"success":true}
+[35msilly[39m: [2025-04-09T18:18:49.309Z][ OBSERVABILITY ] Remaining Queue Length - 1
+[35msilly[39m: [2025-04-09T18:18:51.142Z][ OBSERVABILITY ] Processing events. Queue Length - 1
+[34mdebug[39m: [2025-04-09T18:18:51.143Z][ OBSERVABILITY ] Processing batch events for Interval-Queue. Request Size - 1320 bytes. Events are 'LogCreated':undefined
+[35msilly[39m: [2025-04-09T18:18:51.299Z][ OBSERVABILITY ] Processing event - 'LogCreated' undefined
+[34mdebug[39m: [2025-04-09T18:18:51.301Z][ OBSERVABILITY ] Interval-Queue event successful for events 'LogCreated':undefined -- {"success":true}
+[35msilly[39m: [2025-04-09T18:18:51.301Z][ OBSERVABILITY ] Remaining Queue Length - 1
+[35msilly[39m: [2025-04-09T18:18:53.143Z][ OBSERVABILITY ] Processing events. Queue Length - 1
+[34mdebug[39m: [2025-04-09T18:18:53.143Z][ OBSERVABILITY ] Processing batch events for Interval-Queue. Request Size - 1320 bytes. Events are 'LogCreated':undefined
+[35msilly[39m: [2025-04-09T18:18:53.302Z][ OBSERVABILITY ] Processing event - 'LogCreated' undefined
+[34mdebug[39m: [2025-04-09T18:18:53.302Z][ OBSERVABILITY ] Interval-Queue event successful for events 'LogCreated':undefined -- {"success":true}
+[35msilly[39m: [2025-04-09T18:18:53.303Z][ OBSERVABILITY ] Remaining Queue Length - 1
+[35msilly[39m: [2025-04-09T18:18:55.144Z][ OBSERVABILITY ] Processing events. Queue Length - 1
+[34mdebug[39m: [2025-04-09T18:18:55.144Z][ OBSERVABILITY ] Processing batch events for Interval-Queue. Request Size - 1320 bytes. Events are 'LogCreated':undefined
+[35msilly[39m: [2025-04-09T18:18:55.348Z][ OBSERVABILITY ] Processing event - 'LogCreated' undefined
+[34mdebug[39m: [2025-04-09T18:18:55.350Z][ OBSERVABILITY ] Interval-Queue event successful for events 'LogCreated':undefined -- {"success":true}
+[35msilly[39m: [2025-04-09T18:18:55.350Z][ OBSERVABILITY ] Remaining Queue Length - 1
+[35msilly[39m: [2025-04-09T18:18:57.144Z][ OBSERVABILITY ] Processing events. Queue Length - 1
+[34mdebug[39m: [2025-04-09T18:18:57.144Z][ OBSERVABILITY ] Processing batch events for Interval-Queue. Request Size - 1320 bytes. Events are 'LogCreated':undefined
+[35msilly[39m: [2025-04-09T18:18:57.315Z][ OBSERVABILITY ] Processing event - 'LogCreated' undefined
+[34mdebug[39m: [2025-04-09T18:18:57.316Z][ OBSERVABILITY ] Interval-Queue event successful for events 'LogCreated':undefined -- {"success":true}
+[35msilly[39m: [2025-04-09T18:18:57.316Z][ OBSERVABILITY ] Remaining Queue Length - 1
+[35msilly[39m: [2025-04-09T18:18:57.781Z][ OBSERVABILITY ] Started :: afterTestHook, PID - 17792, Argument - login
+[34mdebug[39m: [2025-04-09T18:18:57.782Z][ OBSERVABILITY ] Started :: Executing After Test Hook, PID - 17792, Test Title - login, Test File - /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/tests/formula1-test.spec.ts
+[34mdebug[39m: [2025-04-09T18:18:57.782Z][ OBSERVABILITY ] Sending session details for chromium-0d06c39b93f6c2963d23-e9ebda90fb1eb1d1eeba-0, {
+  local_grid: {
+    browser: 'playwright-chromium',
+    browser_version: '134.0.6998.35',
+    capabilities: {},
+    platform: 'OS X',
+    platform_version: 'Sonoma',
+    product: null,
+    session_id: undefined
+  }
+}
+[35msilly[39m: [2025-04-09T18:18:57.782Z][ OBSERVABILITY ] Processing event - 'CBTSessionCreated' 26581a4f-8aba-4253-b1cb-6436f3a18fea
+[35msilly[39m: [2025-04-09T18:18:57.782Z][ OBSERVABILITY ] Finished :: afterTestHook, PID - 17792, Argument - login
+2025-04-09 21:18:57 - [34mdebug[39m: Error in browserstack js executor  page.evaluate: Target page, context or browser has been closed
+[34mdebug[39m: [2025-04-09T18:18:57.786Z][ OBSERVABILITY ] Finished :: Executing After Test Hook, PID - 17792, Test Title - login, Test File - /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/tests/formula1-test.spec.ts
+[34mdebug[39m: [2025-04-09T18:18:57.786Z][ OBSERVABILITY ] Test Hook ended, PID 17792
+[35msilly[39m: [2025-04-09T18:18:57.917Z][ OBSERVABILITY ] Started :: afterWorkerHook, PID - 17792, Argument - 0
+[35msilly[39m: [2025-04-09T18:18:57.917Z][ OBSERVABILITY ] Finished :: afterWorkerHook, PID - 17792, Argument - 0
+[35msilly[39m: [2025-04-09T18:18:59.145Z][ OBSERVABILITY ] Processing events. Queue Length - 2
+[34mdebug[39m: [2025-04-09T18:18:59.146Z][ OBSERVABILITY ] Processing batch events for Interval-Queue. Request Size - 1591 bytes. Events are 'LogCreated':undefined,'CBTSessionCreated':26581a4f-8aba-4253-b1cb-6436f3a18fea
+[34mdebug[39m: [2025-04-09T18:18:59.308Z][ OBSERVABILITY ] Interval-Queue event successful for events 'LogCreated':undefined,'CBTSessionCreated':26581a4f-8aba-4253-b1cb-6436f3a18fea -- {"success":true}
+[35msilly[39m: [2025-04-09T18:18:59.308Z][ OBSERVABILITY ] Remaining Queue Length - 0
+[34mdebug[39m: [2025-04-09T18:18:59.335Z][ OBSERVABILITY ] Finished :: Exiting Playwright worker, PID - 17792, WorkerIndex - 0
+[35msilly[39m: [2025-04-09T18:18:59.342Z][ OBSERVABILITY ] Test Finished with unique id chromium-0d06c39b93f6c2963d23-e9ebda90fb1eb1d1eeba
+[35msilly[39m: [2025-04-09T18:18:59.343Z][ OBSERVABILITY ] Processing event - 'LogCreated' undefined
+2025-04-09 21:18:59 - [34mdebug[39m: Searching for key: path
+[35msilly[39m: [2025-04-09T18:18:59.345Z][ OBSERVABILITY ] Processing event - 'TestRunFinished' 26581a4f-8aba-4253-b1cb-6436f3a18fea
+[34mdebug[39m: [2025-04-09T18:18:59.345Z][ OBSERVABILITY ] Starting sending trace zip for test: 26581a4f-8aba-4253-b1cb-6436f3a18fea
+2025-04-09 21:18:59 - [34mdebug[39m: Checking if trace is enabled for test: 26581a4f-8aba-4253-b1cb-6436f3a18fea
+2025-04-09 21:18:59 - [34mdebug[39m: Searching for key: path
+[35msilly[39m: [2025-04-09T18:19:00.118Z][ OBSERVABILITY ] Processing events. Queue Length - 2
+[34mdebug[39m: [2025-04-09T18:19:00.119Z][ OBSERVABILITY ] Processing batch events for Interval-Queue. Request Size - 5091 bytes. Events are 'LogCreated':undefined,'TestRunFinished':26581a4f-8aba-4253-b1cb-6436f3a18fea
+[34mdebug[39m: [2025-04-09T18:19:00.329Z][ OBSERVABILITY ] Interval-Queue event successful for events 'LogCreated':undefined,'TestRunFinished':26581a4f-8aba-4253-b1cb-6436f3a18fea -- {"success":true}
+[35msilly[39m: [2025-04-09T18:19:00.329Z][ OBSERVABILITY ] Remaining Queue Length - 0
