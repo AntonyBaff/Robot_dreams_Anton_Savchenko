@@ -1,0 +1,20 @@
+userName: antonsavchenko_vu3LJ9
+accessKey: fYTrrruyjG5pPXPu5WWp
+projectName: BrowserStack Samples
+buildName: browserstack build
+buildIdentifier: '#2'
+parallelsPerPlatform: 1
+browserstackLocal: true
+debug: false
+networkLogs: false
+consoleLogs: errors
+testObservability: true
+browserstackAutomation: false
+platforms: []
+testContextOptions:
+  skipSessionStatus: true
+  skipSessionName: true
+browserStackLocalOptions:
+  localIdentifier: 9_Apr_2118_MacBookAirAnton.local_fque
+  skipBinaryInitialisation: false
+proxySettings: {}

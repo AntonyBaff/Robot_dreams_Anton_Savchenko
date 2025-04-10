@@ -1,0 +1,11 @@
+2025-04-09 21:10:23 - [32minfo[39m: Creating configuration file...
+2025-04-09 21:10:23 - [32minfo[39m: Adding new script(s) in package.json...
+2025-04-09 21:10:23 - [32minfo[39m: Setup completed
+2025-04-09 21:11:37 - [32minfo[39m: Running SDK with args /Users/anton_savchenko/.nvm/versions/node/v22.2.0/bin/node /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/node_modules/.bin/browserstack-node-sdk playwright test
+2025-04-09 21:11:37 - [32minfo[39m: Reading configs from /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/browserstack.yml
+2025-04-09 21:11:37 - [32minfo[39m: SDK run started with id: c59a6fb6-6f6e-4fe0-98dd-b3346b558913
+2025-04-09 21:11:40 - [32minfo[39m: Testhub started with id: xcc03ciqo8gwxc0nh05kb04r54v6oag3y4sbjr6g
+2025-04-09 21:18:20 - [32minfo[39m: Running SDK with args /Users/anton_savchenko/.nvm/versions/node/v22.2.0/bin/node /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/node_modules/.bin/browserstack-node-sdk playwright test
+2025-04-09 21:18:20 - [32minfo[39m: Reading configs from /Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/browserstack.yml
+2025-04-09 21:18:20 - [32minfo[39m: SDK run started with id: dffb9e31-4f06-476a-a849-2801c98e7fbb
+2025-04-09 21:18:22 - [32minfo[39m: Testhub started with id: swcqjufboufy4qup11fvnl3ofo2sxpapdej1ctq1

@@ -1,0 +1,322 @@
+{
+  "stats": {
+    "suites": 4,
+    "tests": 6,
+    "passes": 4,
+    "pending": 0,
+    "failures": 2,
+    "start": "2025-04-10T14:43:08.024Z",
+    "end": "2025-04-10T14:43:08.034Z",
+    "duration": 10,
+    "testsRegistered": 6,
+    "passPercent": 66.66666666666666,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "56f5a407-2b95-400e-b60f-15e4e61f7dbb",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "13951851-4e81-4d79-b458-b12e32514e43",
+          "title": "Mocha first test suite",
+          "fullFile": "/Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/mocha/tests/mocha-first-test.spec.ts",
+          "file": "/tests/mocha-first-test.spec.ts",
+          "beforeHooks": [
+            {
+              "title": "\"before all\" hook in \"Mocha first test suite\"",
+              "fullTitle": "Mocha first test suite \"before all\" hook in \"Mocha first test suite\"",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "sum=5",
+              "err": {},
+              "uuid": "4de5bf1a-99d5-4c82-b337-78598589b8f1",
+              "parentUUID": "13951851-4e81-4d79-b458-b12e32514e43",
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"before each\" hook in \"Mocha first test suite\"",
+              "fullTitle": "Mocha first test suite \"before each\" hook in \"Mocha first test suite\"",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "sum=6",
+              "err": {},
+              "uuid": "4c1a8e8d-0fb4-4b00-8989-7aa411b693a1",
+              "parentUUID": "13951851-4e81-4d79-b458-b12e32514e43",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [],
+          "tests": [],
+          "suites": [
+            {
+              "uuid": "b2641192-66d4-4318-a104-ea9a6090ca62",
+              "title": "Mocha first test",
+              "fullFile": "/Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/mocha/tests/mocha-first-test.spec.ts",
+              "file": "/tests/mocha-first-test.spec.ts",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "2 + 2 = 4",
+                  "fullTitle": "Mocha first test suite Mocha first test 2 + 2 = 4",
+                  "timedOut": false,
+                  "duration": 0,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "(0,import_chai.expect)(2+2).to.be.equal(4)",
+                  "err": {},
+                  "uuid": "c9cf4747-5e20-4b8a-aff8-efe7dd966565",
+                  "parentUUID": "b2641192-66d4-4318-a104-ea9a6090ca62",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "c9cf4747-5e20-4b8a-aff8-efe7dd966565"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 0,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 120000
+            },
+            {
+              "uuid": "967e773d-f8e3-46e9-b6cf-b159151fdb6f",
+              "title": "Mocha second test, 2 + 2 = 5",
+              "fullFile": "/Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/mocha/tests/mocha-first-test.spec.ts",
+              "file": "/tests/mocha-first-test.spec.ts",
+              "beforeHooks": [
+                {
+                  "title": "\"before each\" hook in \"Mocha second test, 2 + 2 = 5\"",
+                  "fullTitle": "Mocha first test suite Mocha second test, 2 + 2 = 5 \"before each\" hook in \"Mocha second test, 2 + 2 = 5\"",
+                  "timedOut": false,
+                  "duration": 0,
+                  "state": null,
+                  "speed": null,
+                  "pass": false,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "sum=7",
+                  "err": {},
+                  "uuid": "74f7154f-79e1-4e98-8525-6ffaa512fd6a",
+                  "parentUUID": "967e773d-f8e3-46e9-b6cf-b159151fdb6f",
+                  "isHook": true,
+                  "skipped": false
+                }
+              ],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "1. put result of 2 + 2 into variable",
+                  "fullTitle": "Mocha first test suite Mocha second test, 2 + 2 = 5 1. put result of 2 + 2 into variable",
+                  "timedOut": false,
+                  "duration": 0,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "sum=2+2",
+                  "err": {},
+                  "uuid": "a3d9f3a9-df46-417a-8539-af7e07e91fd9",
+                  "parentUUID": "967e773d-f8e3-46e9-b6cf-b159151fdb6f",
+                  "isHook": false,
+                  "skipped": false
+                },
+                {
+                  "title": "2. check variable to be 5",
+                  "fullTitle": "Mocha first test suite Mocha second test, 2 + 2 = 5 2. check variable to be 5",
+                  "timedOut": false,
+                  "duration": 0,
+                  "state": "failed",
+                  "speed": null,
+                  "pass": false,
+                  "fail": true,
+                  "pending": false,
+                  "context": null,
+                  "code": "(0,import_chai.expect)(sum).to.be.equal(5)",
+                  "err": {
+                    "message": "AssertionError: expected 7 to equal 5",
+                    "estack": "AssertionError: expected 7 to equal 5\n    at Context.<anonymous> (tests/mocha-first-test.spec.ts:28:31)\n    at process.processImmediate (node:internal/timers:478:21)",
+                    "diff": "- 7\n+ 5\n"
+                  },
+                  "uuid": "608915e2-c109-45ac-9a33-30efbb91cbc7",
+                  "parentUUID": "967e773d-f8e3-46e9-b6cf-b159151fdb6f",
+                  "isHook": false,
+                  "skipped": false
+                },
+                {
+                  "title": "3. final test case",
+                  "fullTitle": "Mocha first test suite Mocha second test, 2 + 2 = 5 3. final test case",
+                  "timedOut": false,
+                  "duration": 0,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "console.log(\"ascxdv\")",
+                  "err": {},
+                  "uuid": "c5269d55-b788-46d8-8cce-f6202174b67c",
+                  "parentUUID": "967e773d-f8e3-46e9-b6cf-b159151fdb6f",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "a3d9f3a9-df46-417a-8539-af7e07e91fd9",
+                "c5269d55-b788-46d8-8cce-f6202174b67c"
+              ],
+              "failures": [
+                "608915e2-c109-45ac-9a33-30efbb91cbc7"
+              ],
+              "pending": [],
+              "skipped": [],
+              "duration": 0,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 120000
+            }
+          ],
+          "passes": [],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 120000
+        },
+        {
+          "uuid": "7da7559b-2466-41e6-88eb-7fcb43e061df",
+          "title": "Unit test suite",
+          "fullFile": "/Users/anton_savchenko/sources/Robot_dreams_Anton_Savchenko/lesson21/mocha/tests/unit-test.spec.ts",
+          "file": "/tests/unit-test.spec.ts",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "heatWater should heat the water to 50 degrees",
+              "fullTitle": "Unit test suite heatWater should heat the water to 50 degrees",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const obj=new import_electric_water_heater.ElectricWaterHeater(50,\"25x25x50\");obj.heatWater();(0,import_chai.expect)(obj.currentTemperature).to.be.equal(50)",
+              "err": {},
+              "uuid": "f5294f45-0d7c-40b7-b07b-1982d4cfa9bc",
+              "parentUUID": "7da7559b-2466-41e6-88eb-7fcb43e061df",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "heatCustomWater(80) should heat the water to 80 degrees",
+              "fullTitle": "Unit test suite heatCustomWater(80) should heat the water to 80 degrees",
+              "timedOut": false,
+              "duration": 1,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "const obj=new import_electric_water_heater.ElectricWaterHeater(50,\"25x25x50\");obj.heatCustomWater(80);(0,import_chai.expect)(obj.currentTemperature).to.be.equal(50)",
+              "err": {
+                "message": "AssertionError: expected 80 to equal 50",
+                "estack": "AssertionError: expected 80 to equal 50\n    at Context.<anonymous> (tests/unit-test.spec.ts:25:46)\n    at process.processImmediate (node:internal/timers:478:21)",
+                "diff": "- 80\n+ 50\n"
+              },
+              "uuid": "f2b6304b-400d-4e00-9e5a-1b72dc886c65",
+              "parentUUID": "7da7559b-2466-41e6-88eb-7fcb43e061df",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "f5294f45-0d7c-40b7-b07b-1982d4cfa9bc"
+          ],
+          "failures": [
+            "f2b6304b-400d-4e00-9e5a-1b72dc886c65"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 1,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 120000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 120000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "11.1.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "[object Object]": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}
